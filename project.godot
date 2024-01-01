@@ -77,14 +77,19 @@ Settings/Show_Tooltips=true
 config/name="Fend Off The Hordes"
 run/main_scene="res://survivors_game.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
+run/max_fps=240
 config/icon="res://icon.png"
+
+[debug]
+
+settings/stdout/print_fps=true
 
 [display]
 
 window/size/viewport_width=1920
 window/size/viewport_height=1080
-window/size/mode=3
 window/stretch/mode="viewport"
+window/vsync/vsync_mode=0
 
 [dotnet]
 
@@ -128,6 +133,7 @@ move_down={
 [physics]
 
 2d/run_on_separate_thread=true
+2d/physics_engine="GodotPhysics2D"
 2d/solver/solver_iterations=4
 
 [rendering]
