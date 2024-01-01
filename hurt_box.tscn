@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxcfotaju0lnv"]
+
+[ext_resource type="Script" path="res://scripts/HurtBox.gd" id="1_ssf5q"]
+
+[node name="HurtBox" type="Area2D"]
+collision_layer = 0
+collision_mask = 0
+script = ExtResource("1_ssf5q")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+debug_color = Color(0.388235, 0.8, 0.372549, 0.192157)
+
+[node name="DisableTimer" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="timeout" from="DisableTimer" to="." method="_on_disable_timer_timeout"]

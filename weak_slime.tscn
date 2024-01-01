@@ -1,0 +1,55 @@
+[gd_scene load_steps=8 format=3 uid="uid://hv04wpkipgtr"]
+
+[ext_resource type="Script" path="res://scripts/mob.gd" id="1_178th"]
+[ext_resource type="PackedScene" uid="uid://ogik4s70pgwl" path="res://characters/slime/slime.tscn" id="2_co841"]
+[ext_resource type="PackedScene" uid="uid://dxcfotaju0lnv" path="res://hurt_box.tscn" id="3_588f4"]
+[ext_resource type="PackedScene" uid="uid://bvg4ev44bsgq1" path="res://hit_box.tscn" id="4_lwon1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tav68"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_uhnrl"]
+radius = 45.0
+height = 106.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_t8a7w"]
+radius = 42.0
+height = 98.0
+
+[node name="weak_slime" type="CharacterBody2D" groups=["mob"]]
+platform_floor_layers = 4294967040
+script = ExtResource("1_178th")
+size = 0.75
+
+[node name="Slime" parent="." instance=ExtResource("2_co841")]
+unique_name_in_owner = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-5.0763e-05, -33)
+rotation = -2.35619
+scale = Vector2(-3.73774, -3.73774)
+shape = SubResource("RectangleShape2D_tav68")
+
+[node name="HurtBox" parent="." instance=ExtResource("3_588f4")]
+collision_mask = 4
+
+[node name="CollisionShape2D" parent="HurtBox" index="0"]
+position = Vector2(0, -33)
+rotation = -1.57079
+shape = SubResource("CapsuleShape2D_uhnrl")
+
+[node name="DisableTimer" parent="HurtBox" index="1"]
+wait_time = 0.2
+
+[node name="HitBox" parent="." instance=ExtResource("4_lwon1")]
+position = Vector2(0, 5)
+collision_layer = 2
+
+[node name="CollisionShape2D" parent="HitBox" index="0"]
+position = Vector2(0, -38)
+rotation = -1.57079
+shape = SubResource("CapsuleShape2D_t8a7w")
+
+[connection signal="hurt" from="HurtBox" to="." method="_on_hurt_box_hurt"]
+
+[editable path="HurtBox"]
+[editable path="HitBox"]

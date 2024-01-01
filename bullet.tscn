@@ -1,0 +1,45 @@
+[gd_scene load_steps=8 format=3 uid="uid://3fxno4eagstq"]
+
+[ext_resource type="Script" path="res://scripts/bullet.gd" id="1_nrhqn"]
+[ext_resource type="Texture2D" uid="uid://dftkbqwsfd68r" path="res://pistol/projectile.png" id="1_wpw5j"]
+[ext_resource type="PackedScene" uid="uid://bvg4ev44bsgq1" path="res://hit_box.tscn" id="3_honqy"]
+[ext_resource type="PackedScene" uid="uid://dxcfotaju0lnv" path="res://hurt_box.tscn" id="3_uwt0h"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gsa7g"]
+radius = 9.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_vtx4d"]
+radius = 17.0294
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_fsbl6"]
+radius = 17.0
+
+[node name="Bullet" type="Area2D"]
+top_level = true
+collision_layer = 0
+script = ExtResource("1_nrhqn")
+
+[node name="Projectile" type="Sprite2D" parent="."]
+position = Vector2(-12, -1)
+texture = ExtResource("1_wpw5j")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_gsa7g")
+
+[node name="HurtBox" parent="." instance=ExtResource("3_uwt0h")]
+collision_mask = 2
+
+[node name="CollisionShape2D" parent="HurtBox" index="0"]
+shape = SubResource("CircleShape2D_vtx4d")
+
+[node name="HitBox" parent="." instance=ExtResource("3_honqy")]
+collision_layer = 4
+
+[node name="CollisionShape2D" parent="HitBox" index="0"]
+shape = SubResource("CircleShape2D_fsbl6")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="hurt" from="HurtBox" to="." method="_on_hurt_box_hurt"]
+
+[editable path="HurtBox"]
+[editable path="HitBox"]
