@@ -5,8 +5,8 @@
 [ext_resource type="PackedScene" uid="uid://c5ej8bk4hthcv" path="res://gun.tscn" id="3_bkdul"]
 [ext_resource type="PackedScene" uid="uid://dxcfotaju0lnv" path="res://hurt_box.tscn" id="3_ybg8q"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_8427u"]
-radius = 9.00001
+[sub_resource type="CircleShape2D" id="CircleShape2D_clg2c"]
+radius = 14.1421
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lbb0i"]
 size = Vector2(38, 52)
@@ -37,7 +37,7 @@ unique_name_in_owner = true
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -5)
 rotation = -1.57079
-shape = SubResource("CapsuleShape2D_8427u")
+shape = SubResource("CircleShape2D_clg2c")
 
 [node name="HurtBox" parent="." instance=ExtResource("3_ybg8q")]
 collision_mask = 2

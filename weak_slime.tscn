@@ -1,9 +1,10 @@
-[gd_scene load_steps=8 format=3 uid="uid://hv04wpkipgtr"]
+[gd_scene load_steps=9 format=3 uid="uid://hv04wpkipgtr"]
 
 [ext_resource type="Script" path="res://scripts/mob.gd" id="1_178th"]
 [ext_resource type="PackedScene" uid="uid://ogik4s70pgwl" path="res://characters/slime/slime.tscn" id="2_co841"]
 [ext_resource type="PackedScene" uid="uid://dxcfotaju0lnv" path="res://hurt_box.tscn" id="3_588f4"]
 [ext_resource type="PackedScene" uid="uid://bvg4ev44bsgq1" path="res://hit_box.tscn" id="4_lwon1"]
+[ext_resource type="PackedScene" uid="uid://bbs76f632wggo" path="res://flock_view.tscn" id="5_jfxet"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_rp1wc"]
 
@@ -16,10 +17,12 @@ radius = 42.0
 height = 98.0
 
 [node name="weak_slime" type="CharacterBody2D" groups=["mob"]]
+collision_layer = 4
+collision_mask = 4
 collision_priority = 10.0
 platform_floor_layers = 4294967040
 script = ExtResource("1_178th")
-size = 0.75
+avoid_distance = 70.0
 
 [node name="Slime" parent="." instance=ExtResource("2_co841")]
 unique_name_in_owner = true
@@ -50,7 +53,13 @@ position = Vector2(0, -38)
 rotation = -1.57079
 shape = SubResource("CapsuleShape2D_t8a7w")
 
+[node name="FlockView" parent="." groups=["enemy"] instance=ExtResource("5_jfxet")]
+position = Vector2(0, -33)
+
 [connection signal="hurt" from="HurtBox" to="." method="_on_hurt_box_hurt"]
+[connection signal="body_entered" from="FlockView" to="." method="_on_flock_view_body_entered"]
+[connection signal="body_exited" from="FlockView" to="." method="_on_flock_view_body_exited"]
 
 [editable path="HurtBox"]
 [editable path="HitBox"]
+[editable path="FlockView"]

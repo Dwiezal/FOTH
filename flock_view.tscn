@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bbs76f632wggo"]
+
+[ext_resource type="Script" path="res://ViewRadius.gd" id="1_getug"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0i6b0"]
+
+[node name="FlockView" type="Area2D"]
+
+[node name="ViewRadius" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_0i6b0")
+script = ExtResource("1_getug")
