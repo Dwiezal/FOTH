@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://1uf6oc0ovs2m"
+path="res://.godot/imported/woodStructure.obj-edfcc155988f3dc0e4a0a136e11335ea.mesh"
+
+[deps]
+
+files=["res://.godot/imported/woodStructure.obj-edfcc155988f3dc0e4a0a136e11335ea.mesh"]
+
+source_file="res://addons/kenneypacks/isometric/Models/OBJ format/woodStructure.obj"
+dest_files=["res://.godot/imported/woodStructure.obj-edfcc155988f3dc0e4a0a136e11335ea.mesh", "res://.godot/imported/woodStructure.obj-edfcc155988f3dc0e4a0a136e11335ea.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bwdbef3dnsv1y"
+path="res://.godot/imported/snow_tile_straightHillLarge.obj-cdfe446ccc6636e8bd6ec3d47fd5a5cc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/snow_tile_straightHillLarge.obj-cdfe446ccc6636e8bd6ec3d47fd5a5cc.mesh"]
+
+source_file="res://addons/kenneypacks/isometric/Models/OBJ format/snow_tile_straightHillLarge.obj"
+dest_files=["res://.godot/imported/snow_tile_straightHillLarge.obj-cdfe446ccc6636e8bd6ec3d47fd5a5cc.mesh", "res://.godot/imported/snow_tile_straightHillLarge.obj-cdfe446ccc6636e8bd6ec3d47fd5a5cc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cy0ig86bq8wa3"
+path="res://.godot/imported/enemy_ufoGreenWeapon.obj-f5e0de8955d7349c2f689b3f4a180e85.mesh"
+
+[deps]
+
+files=["res://.godot/imported/enemy_ufoGreenWeapon.obj-f5e0de8955d7349c2f689b3f4a180e85.mesh"]
+
+source_file="res://addons/kenneypacks/isometric/Models/OBJ format/enemy_ufoGreenWeapon.obj"
+dest_files=["res://.godot/imported/enemy_ufoGreenWeapon.obj-f5e0de8955d7349c2f689b3f4a180e85.mesh", "res://.godot/imported/enemy_ufoGreenWeapon.obj-f5e0de8955d7349c2f689b3f4a180e85.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

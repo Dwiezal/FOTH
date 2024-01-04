@@ -1,0 +1,1524 @@
+[gd_scene load_steps=381 format=3 uid="uid://cgd78s0a0co1e"]
+
+[ext_resource type="Texture2D" uid="uid://cq3qaxac5vec8" path="res://addons/kenneypacks/isometric/Isometric/detail_crystalLarge_E.png" id="1_u1dk3"]
+[ext_resource type="Texture2D" uid="uid://braou2sk1aupg" path="res://addons/kenneypacks/isometric/Isometric/detail_crystalLarge_N.png" id="2_0ggce"]
+[ext_resource type="Texture2D" uid="uid://d2d7uwsi261bt" path="res://addons/kenneypacks/isometric/Isometric/detail_crystalLarge_S.png" id="3_msff3"]
+[ext_resource type="Texture2D" uid="uid://ckt2wrwxlh234" path="res://addons/kenneypacks/isometric/Isometric/detail_crystalLarge_W.png" id="4_pa87o"]
+[ext_resource type="Texture2D" uid="uid://cxar2gvb2y41s" path="res://addons/kenneypacks/isometric/Isometric/detail_crystal_E.png" id="5_vlpcr"]
+[ext_resource type="Texture2D" uid="uid://c2oobd2gc81x2" path="res://addons/kenneypacks/isometric/Isometric/detail_crystal_N.png" id="6_w1api"]
+[ext_resource type="Texture2D" uid="uid://cll6fp7ax087w" path="res://addons/kenneypacks/isometric/Isometric/detail_crystal_S.png" id="7_enyv7"]
+[ext_resource type="Texture2D" uid="uid://2ytarcqk306l" path="res://addons/kenneypacks/isometric/Isometric/detail_crystal_W.png" id="8_s0mwn"]
+[ext_resource type="Texture2D" uid="uid://vyr2q26jy5r4" path="res://addons/kenneypacks/isometric/Isometric/detail_dirtLarge_E.png" id="9_5lp7o"]
+[ext_resource type="Texture2D" uid="uid://drufle5ekef45" path="res://addons/kenneypacks/isometric/Isometric/detail_dirtLarge_N.png" id="10_8r1y2"]
+[ext_resource type="Texture2D" uid="uid://hcjsktkgkrjn" path="res://addons/kenneypacks/isometric/Isometric/detail_dirtLarge_S.png" id="11_s2r8k"]
+[ext_resource type="Texture2D" uid="uid://dlumg02ayjqqq" path="res://addons/kenneypacks/isometric/Isometric/detail_dirtLarge_W.png" id="12_sgqkl"]
+[ext_resource type="Texture2D" uid="uid://opicm6pd5db" path="res://addons/kenneypacks/isometric/Isometric/detail_dirt_E.png" id="13_1b1e2"]
+[ext_resource type="Texture2D" uid="uid://cbxhy38ydghmy" path="res://addons/kenneypacks/isometric/Isometric/detail_dirt_N.png" id="14_4etxm"]
+[ext_resource type="Texture2D" uid="uid://dlwjk2rki1gqa" path="res://addons/kenneypacks/isometric/Isometric/detail_dirt_S.png" id="15_fsa3g"]
+[ext_resource type="Texture2D" uid="uid://ctmmugew1qkn3" path="res://addons/kenneypacks/isometric/Isometric/detail_dirt_W.png" id="16_em5bd"]
+[ext_resource type="Texture2D" uid="uid://cw4grhe5m6vw2" path="res://addons/kenneypacks/isometric/Isometric/detail_rocksLarge_E.png" id="17_er24b"]
+[ext_resource type="Texture2D" uid="uid://bt73f5utgrnfc" path="res://addons/kenneypacks/isometric/Isometric/detail_rocksLarge_N.png" id="18_3w8fu"]
+[ext_resource type="Texture2D" uid="uid://ccxbfjycrosco" path="res://addons/kenneypacks/isometric/Isometric/detail_rocksLarge_S.png" id="19_ki2va"]
+[ext_resource type="Texture2D" uid="uid://c8tkn8rdk0b3q" path="res://addons/kenneypacks/isometric/Isometric/detail_rocksLarge_W.png" id="20_kryqh"]
+[ext_resource type="Texture2D" uid="uid://cqdhx005pd2ag" path="res://addons/kenneypacks/isometric/Isometric/detail_rocks_E.png" id="21_khlsu"]
+[ext_resource type="Texture2D" uid="uid://d3ak51a4qo743" path="res://addons/kenneypacks/isometric/Isometric/detail_rocks_N.png" id="22_6jnbg"]
+[ext_resource type="Texture2D" uid="uid://dqo38na3ncnmw" path="res://addons/kenneypacks/isometric/Isometric/detail_rocks_S.png" id="23_ku71v"]
+[ext_resource type="Texture2D" uid="uid://b478txf3v0wxb" path="res://addons/kenneypacks/isometric/Isometric/detail_rocks_W.png" id="24_0k74v"]
+[ext_resource type="Texture2D" uid="uid://kcfenxbivh2i" path="res://addons/kenneypacks/isometric/Isometric/detail_treeLarge_E.png" id="25_d8j0g"]
+[ext_resource type="Texture2D" uid="uid://bx4l0pwcx4w45" path="res://addons/kenneypacks/isometric/Isometric/detail_treeLarge_N.png" id="26_3lw1b"]
+[ext_resource type="Texture2D" uid="uid://brb6ay8n1prte" path="res://addons/kenneypacks/isometric/Isometric/detail_treeLarge_S.png" id="27_b1810"]
+[ext_resource type="Texture2D" uid="uid://cy1qosd2rpsyk" path="res://addons/kenneypacks/isometric/Isometric/detail_treeLarge_W.png" id="28_2ijhx"]
+[ext_resource type="Texture2D" uid="uid://bwx6rlkuylqht" path="res://addons/kenneypacks/isometric/Isometric/detail_tree_E.png" id="29_idbku"]
+[ext_resource type="Texture2D" uid="uid://d0bktqp0ux43a" path="res://addons/kenneypacks/isometric/Isometric/detail_tree_N.png" id="30_1yotg"]
+[ext_resource type="Texture2D" uid="uid://xxcbr523jv26" path="res://addons/kenneypacks/isometric/Isometric/detail_tree_S.png" id="31_aosyd"]
+[ext_resource type="Texture2D" uid="uid://dqlg4fp8qhkmm" path="res://addons/kenneypacks/isometric/Isometric/detail_tree_W.png" id="32_7284r"]
+[ext_resource type="Texture2D" uid="uid://c6g0yyjpl1yym" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_crystalLarge_E.png" id="33_f6x8a"]
+[ext_resource type="Texture2D" uid="uid://doisvam4ib3gn" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_crystalLarge_N.png" id="34_npd11"]
+[ext_resource type="Texture2D" uid="uid://55p4be3xc574" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_crystalLarge_S.png" id="35_qcbqp"]
+[ext_resource type="Texture2D" uid="uid://uemoplmrd067" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_crystalLarge_W.png" id="36_atesi"]
+[ext_resource type="Texture2D" uid="uid://cs8fcylndfgqm" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_crystal_E.png" id="37_hmxwp"]
+[ext_resource type="Texture2D" uid="uid://domgox6r4d307" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_crystal_N.png" id="38_wirty"]
+[ext_resource type="Texture2D" uid="uid://daqyavx1ye18q" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_crystal_S.png" id="39_euqsf"]
+[ext_resource type="Texture2D" uid="uid://nw631yws1smr" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_crystal_W.png" id="40_1qiuh"]
+[ext_resource type="Texture2D" uid="uid://b2oopniay3ava" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_dirtLarge_E.png" id="41_laerp"]
+[ext_resource type="Texture2D" uid="uid://dwrkuhkjif3g4" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_dirtLarge_N.png" id="42_215h2"]
+[ext_resource type="Texture2D" uid="uid://bluoy5j4sa3uy" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_dirtLarge_S.png" id="43_s8mol"]
+[ext_resource type="Texture2D" uid="uid://b7n82dy51oqy0" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_dirtLarge_W.png" id="44_comnb"]
+[ext_resource type="Texture2D" uid="uid://b5pj023ysw7pt" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_dirt_E.png" id="45_ie6pt"]
+[ext_resource type="Texture2D" uid="uid://bjgjn2yrto0gu" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_dirt_N.png" id="46_03s3h"]
+[ext_resource type="Texture2D" uid="uid://biupn543n5ft2" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_dirt_S.png" id="47_jilc6"]
+[ext_resource type="Texture2D" uid="uid://bqmnmw0ynabfa" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_dirt_W.png" id="48_gbiv6"]
+[ext_resource type="Texture2D" uid="uid://d0ugpf38o3d3k" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_rocksLarge_E.png" id="49_cc507"]
+[ext_resource type="Texture2D" uid="uid://s8n740j0ju7v" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_rocksLarge_N.png" id="50_26a78"]
+[ext_resource type="Texture2D" uid="uid://bevpdbqb7qxkt" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_rocksLarge_S.png" id="51_0k6im"]
+[ext_resource type="Texture2D" uid="uid://b7da4nwxin5kq" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_rocksLarge_W.png" id="52_oqoc0"]
+[ext_resource type="Texture2D" uid="uid://b0xrlb2obbxa5" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_rocks_E.png" id="53_4b7o5"]
+[ext_resource type="Texture2D" uid="uid://bifd64dw3mncw" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_rocks_N.png" id="54_ju0if"]
+[ext_resource type="Texture2D" uid="uid://c6y6fabhdnq03" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_rocks_S.png" id="55_a5u0y"]
+[ext_resource type="Texture2D" uid="uid://decj8xsfvsbo1" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_rocks_W.png" id="56_0fyw2"]
+[ext_resource type="Texture2D" uid="uid://u56hm6lhiyes" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_treeLarge_E.png" id="57_lnr36"]
+[ext_resource type="Texture2D" uid="uid://df8ly2qmohqsk" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_treeLarge_N.png" id="58_ax80v"]
+[ext_resource type="Texture2D" uid="uid://83lbcif7ee3b" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_treeLarge_S.png" id="59_de04m"]
+[ext_resource type="Texture2D" uid="uid://dq8yy4trerb8n" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_treeLarge_W.png" id="60_tronr"]
+[ext_resource type="Texture2D" uid="uid://facuo1ihv67u" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_tree_E.png" id="61_qp8u5"]
+[ext_resource type="Texture2D" uid="uid://dabgb38inc5pp" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_tree_N.png" id="62_j1k72"]
+[ext_resource type="Texture2D" uid="uid://c6bxjyx7bo7qx" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_tree_S.png" id="63_gspjp"]
+[ext_resource type="Texture2D" uid="uid://du2badgv7mchh" path="res://addons/kenneypacks/isometric/Isometric/snow_detail_tree_W.png" id="64_fcp58"]
+[ext_resource type="Texture2D" uid="uid://bolqol3vnwa31" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_bump_E.png" id="65_8653f"]
+[ext_resource type="Texture2D" uid="uid://2dia0tor0tbl" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_bump_N.png" id="66_g13u7"]
+[ext_resource type="Texture2D" uid="uid://kjj21lbni33v" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_bump_S.png" id="67_l7nfk"]
+[ext_resource type="Texture2D" uid="uid://d1sfrmy4nbu2q" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_bump_W.png" id="68_ibqug"]
+[ext_resource type="Texture2D" uid="uid://djoggfwivl1fy" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_cornerInner_E.png" id="69_lyv3i"]
+[ext_resource type="Texture2D" uid="uid://bmbl72oyr2lkm" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_cornerInner_N.png" id="70_03gp5"]
+[ext_resource type="Texture2D" uid="uid://eppq7shghchg" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_cornerInner_S.png" id="71_44tsp"]
+[ext_resource type="Texture2D" uid="uid://snfout2l8yjy" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_cornerInner_W.png" id="72_cts17"]
+[ext_resource type="Texture2D" uid="uid://ddqsah5aumkaj" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_cornerLarge_E.png" id="73_2n4oy"]
+[ext_resource type="Texture2D" uid="uid://cicqpympgaomj" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_cornerLarge_N.png" id="74_eiwxf"]
+[ext_resource type="Texture2D" uid="uid://m7rswe2pvnrw" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_cornerLarge_S.png" id="75_5ygr7"]
+[ext_resource type="Texture2D" uid="uid://b3cwlclikqwy2" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_cornerLarge_W.png" id="76_h4j5g"]
+[ext_resource type="Texture2D" uid="uid://ddlew6ifea8eq" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_cornerOuter_E.png" id="77_6gl1x"]
+[ext_resource type="Texture2D" uid="uid://sqby4turx8qe" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_cornerOuter_N.png" id="78_eqyx6"]
+[ext_resource type="Texture2D" uid="uid://cykekq1jujk76" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_cornerOuter_S.png" id="79_0h0qq"]
+[ext_resource type="Texture2D" uid="uid://cxc88v8q6fclx" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_cornerOuter_W.png" id="80_rw4bq"]
+[ext_resource type="Texture2D" uid="uid://lvu7w417857e" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_cornerRound_E.png" id="81_bwabu"]
+[ext_resource type="Texture2D" uid="uid://cgjko5nikndhr" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_cornerRound_N.png" id="82_xj7nf"]
+[ext_resource type="Texture2D" uid="uid://3kgojipbrkni" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_cornerRound_S.png" id="83_qphsd"]
+[ext_resource type="Texture2D" uid="uid://bo3pueufh1jkn" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_cornerRound_W.png" id="84_i0ckh"]
+[ext_resource type="Texture2D" uid="uid://b2dfxx6w6kja6" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_cornerSquare_E.png" id="85_x2va3"]
+[ext_resource type="Texture2D" uid="uid://ciar1de3j3isp" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_cornerSquare_N.png" id="86_jfagn"]
+[ext_resource type="Texture2D" uid="uid://cx124oxao2heo" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_cornerSquare_S.png" id="87_yosa6"]
+[ext_resource type="Texture2D" uid="uid://dqvg4polvmwt2" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_cornerSquare_W.png" id="88_iwv1s"]
+[ext_resource type="Texture2D" uid="uid://ctqfsn6p53e4p" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_crossing_E.png" id="89_gakwe"]
+[ext_resource type="Texture2D" uid="uid://ew2nd4ksu2ah" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_crossing_N.png" id="90_irwy4"]
+[ext_resource type="Texture2D" uid="uid://btwjxuotpjsw0" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_crossing_S.png" id="91_2f2nn"]
+[ext_resource type="Texture2D" uid="uid://cuuetvffuf1ud" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_crossing_W.png" id="92_7nwxl"]
+[ext_resource type="Texture2D" uid="uid://bnulauafv6i7s" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_crystal_E.png" id="93_ev74j"]
+[ext_resource type="Texture2D" uid="uid://cnsqiu536tgqf" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_crystal_N.png" id="94_mmcjx"]
+[ext_resource type="Texture2D" uid="uid://dlcd1jprid70a" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_crystal_S.png" id="95_enmhq"]
+[ext_resource type="Texture2D" uid="uid://v1j7qxkbrhd2" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_crystal_W.png" id="96_p8aqe"]
+[ext_resource type="Texture2D" uid="uid://8ppm2oamgugo" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_E.png" id="97_yb7vh"]
+[ext_resource type="Texture2D" uid="uid://bnv14mhta6os0" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_endRoundSpawn_E.png" id="98_2h4gh"]
+[ext_resource type="Texture2D" uid="uid://b2k1q3m603msy" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_endRoundSpawn_N.png" id="99_sbyq1"]
+[ext_resource type="Texture2D" uid="uid://dqiahhgu6chup" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_endRoundSpawn_S.png" id="100_qppcp"]
+[ext_resource type="Texture2D" uid="uid://cgipiqawiktrx" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_endRoundSpawn_W.png" id="101_wuoqd"]
+[ext_resource type="Texture2D" uid="uid://ms6k03b33dp7" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_endRound_E.png" id="102_irhlt"]
+[ext_resource type="Texture2D" uid="uid://b5r1bb5huk0we" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_endRound_N.png" id="103_m8u15"]
+[ext_resource type="Texture2D" uid="uid://conws2x7djhx1" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_endRound_S.png" id="104_ofk3x"]
+[ext_resource type="Texture2D" uid="uid://cubuckfs160ue" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_endRound_W.png" id="105_y3146"]
+[ext_resource type="Texture2D" uid="uid://by5nrv1yvxete" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_end_E.png" id="106_rb2k6"]
+[ext_resource type="Texture2D" uid="uid://bktdboyabket6" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_end_N.png" id="107_gi8ky"]
+[ext_resource type="Texture2D" uid="uid://bkqgweryqanod" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_end_S.png" id="108_kumhs"]
+[ext_resource type="Texture2D" uid="uid://dsbaew48fm7oo" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_end_W.png" id="109_oj4n2"]
+[ext_resource type="Texture2D" uid="uid://cd5jh6aap2vax" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_hill_E.png" id="110_tmuub"]
+[ext_resource type="Texture2D" uid="uid://c7i1t314auyob" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_hill_N.png" id="111_tia4p"]
+[ext_resource type="Texture2D" uid="uid://d23ipwoct072b" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_hill_S.png" id="112_p631h"]
+[ext_resource type="Texture2D" uid="uid://c4702ckgolapv" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_hill_W.png" id="113_a3bau"]
+[ext_resource type="Texture2D" uid="uid://c7erp4705fvo5" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_N.png" id="114_xnqdt"]
+[ext_resource type="Texture2D" uid="uid://b8am3r7g5xexs" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverBridge_E.png" id="115_d351e"]
+[ext_resource type="Texture2D" uid="uid://b3wiapulfvtut" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverBridge_N.png" id="116_orovf"]
+[ext_resource type="Texture2D" uid="uid://dm7cp3st8kca7" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverBridge_S.png" id="117_4otpt"]
+[ext_resource type="Texture2D" uid="uid://c0dipi2pw6g4d" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverBridge_W.png" id="118_74q81"]
+[ext_resource type="Texture2D" uid="uid://du56ddhtbpni5" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverCorner_E.png" id="119_glt3s"]
+[ext_resource type="Texture2D" uid="uid://c2ulc3ksb7atu" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverCorner_N.png" id="120_tmbus"]
+[ext_resource type="Texture2D" uid="uid://5uxrlqnvapru" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverCorner_S.png" id="121_kjkjw"]
+[ext_resource type="Texture2D" uid="uid://8piclc7ex8ht" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverCorner_W.png" id="122_8vg5n"]
+[ext_resource type="Texture2D" uid="uid://d02ao7ywomquw" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverFall_E.png" id="123_u4hel"]
+[ext_resource type="Texture2D" uid="uid://b5if2wf0pktpc" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverFall_N.png" id="124_2j4pc"]
+[ext_resource type="Texture2D" uid="uid://bqxcp5qajrhvg" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverFall_S.png" id="125_oorun"]
+[ext_resource type="Texture2D" uid="uid://cyj2tl4hfqucx" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverFall_W.png" id="126_jn7gv"]
+[ext_resource type="Texture2D" uid="uid://cp57b4wpteb4m" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverSlopeLarge_E.png" id="127_dki6m"]
+[ext_resource type="Texture2D" uid="uid://dt2tc665amuvc" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverSlopeLarge_N.png" id="128_gwufi"]
+[ext_resource type="Texture2D" uid="uid://baev6ggnk0ucj" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverSlopeLarge_S.png" id="129_o25en"]
+[ext_resource type="Texture2D" uid="uid://cvinjck0alaf8" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverSlopeLarge_W.png" id="130_u5x67"]
+[ext_resource type="Texture2D" uid="uid://jixkcde3e38c" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverSlope_E.png" id="131_wrluh"]
+[ext_resource type="Texture2D" uid="uid://cvrsohg1glhgn" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverSlope_N.png" id="132_5v10c"]
+[ext_resource type="Texture2D" uid="uid://ksbiodjvor6w" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverSlope_S.png" id="133_gr8v6"]
+[ext_resource type="Texture2D" uid="uid://dedlcph0dsa30" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverSlope_W.png" id="134_hgsbh"]
+[ext_resource type="Texture2D" uid="uid://bl8upchcn12ty" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverStraight_E.png" id="135_y4gil"]
+[ext_resource type="Texture2D" uid="uid://t6wfavhjci2p" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverStraight_N.png" id="136_2bj5t"]
+[ext_resource type="Texture2D" uid="uid://l7m3ssih4xdm" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverStraight_S.png" id="137_bx52d"]
+[ext_resource type="Texture2D" uid="uid://bned5tjuvt13c" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverStraight_W.png" id="138_ird8f"]
+[ext_resource type="Texture2D" uid="uid://dl5bhfmyv740v" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverTransition_E.png" id="139_ppxtf"]
+[ext_resource type="Texture2D" uid="uid://dwfvsy5qj4btj" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverTransition_N.png" id="140_toq1g"]
+[ext_resource type="Texture2D" uid="uid://dodljrgphki54" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverTransition_S.png" id="141_2ssw7"]
+[ext_resource type="Texture2D" uid="uid://dwp25ysb2b70" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_riverTransition_W.png" id="142_d32ub"]
+[ext_resource type="Texture2D" uid="uid://b2ek2belpki6a" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_rock_E.png" id="143_lwwex"]
+[ext_resource type="Texture2D" uid="uid://cx7nth1k6gn8x" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_rock_N.png" id="144_6kkqt"]
+[ext_resource type="Texture2D" uid="uid://bol53xwhpks34" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_rock_S.png" id="145_dnioi"]
+[ext_resource type="Texture2D" uid="uid://d10imqa3ruc16" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_rock_W.png" id="146_bl37y"]
+[ext_resource type="Texture2D" uid="uid://bbgynqnthoer" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_S.png" id="147_27jvf"]
+[ext_resource type="Texture2D" uid="uid://cwg2obrdx1t1f" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_slope_E.png" id="148_0f7m3"]
+[ext_resource type="Texture2D" uid="uid://dca7uv577r8al" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_slope_N.png" id="149_wxsjk"]
+[ext_resource type="Texture2D" uid="uid://bw8kpaiwwmgkc" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_slope_S.png" id="150_ki06p"]
+[ext_resource type="Texture2D" uid="uid://c1h0ev58g30u1" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_slope_W.png" id="151_nw0ll"]
+[ext_resource type="Texture2D" uid="uid://bse4k8d4ohlpe" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_spawnRound_E.png" id="152_rhpeg"]
+[ext_resource type="Texture2D" uid="uid://bgco0fimtk1s" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_spawnRound_N.png" id="153_5eyc6"]
+[ext_resource type="Texture2D" uid="uid://ds462jv5qpthn" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_spawnRound_S.png" id="154_pybql"]
+[ext_resource type="Texture2D" uid="uid://crpso3dtpf2so" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_spawnRound_W.png" id="155_rsfwr"]
+[ext_resource type="Texture2D" uid="uid://coddu0p5dl4ag" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_spawn_E.png" id="156_w42lq"]
+[ext_resource type="Texture2D" uid="uid://djv5u54a4p6u3" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_spawn_N.png" id="157_ysf7e"]
+[ext_resource type="Texture2D" uid="uid://dm8fw6e1jatii" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_spawn_S.png" id="158_a51jp"]
+[ext_resource type="Texture2D" uid="uid://nhchwpsfadw5" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_spawn_W.png" id="159_v70fw"]
+[ext_resource type="Texture2D" uid="uid://ovk8igvk4pu6" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_split_E.png" id="160_hjnoq"]
+[ext_resource type="Texture2D" uid="uid://di22t8buk7prm" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_split_N.png" id="161_4xcjw"]
+[ext_resource type="Texture2D" uid="uid://3hrgn2i7i1bq" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_split_S.png" id="162_qelid"]
+[ext_resource type="Texture2D" uid="uid://p64ais15it1e" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_split_W.png" id="163_s1r1m"]
+[ext_resource type="Texture2D" uid="uid://dxxhr4q3owibv" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_straightHillLarge_E.png" id="164_egtje"]
+[ext_resource type="Texture2D" uid="uid://dhxl1shxx3jsy" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_straightHillLarge_N.png" id="165_r67ma"]
+[ext_resource type="Texture2D" uid="uid://bd0n3bfcg512x" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_straightHillLarge_S.png" id="166_hjos6"]
+[ext_resource type="Texture2D" uid="uid://b6jsdtrfkl8iw" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_straightHillLarge_W.png" id="167_wdcig"]
+[ext_resource type="Texture2D" uid="uid://bb552f01x6l17" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_straightHill_E.png" id="168_8jxox"]
+[ext_resource type="Texture2D" uid="uid://cr4o8etvl1u8m" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_straightHill_N.png" id="169_ark1d"]
+[ext_resource type="Texture2D" uid="uid://b824cumkkpfqm" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_straightHill_S.png" id="170_nowau"]
+[ext_resource type="Texture2D" uid="uid://bjeket7yv0p2f" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_straightHill_W.png" id="171_2fr4v"]
+[ext_resource type="Texture2D" uid="uid://bmo621bgfimo" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_straight_E.png" id="172_lqbgl"]
+[ext_resource type="Texture2D" uid="uid://ccgijpnkfyfm3" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_straight_N.png" id="173_god0g"]
+[ext_resource type="Texture2D" uid="uid://yj3irq4cyv4b" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_straight_S.png" id="174_bnbgw"]
+[ext_resource type="Texture2D" uid="uid://b3cfee7fqtn2d" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_straight_W.png" id="175_1l8lx"]
+[ext_resource type="Texture2D" uid="uid://d3jjq0cua3rky" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_transition_E.png" id="176_64ojo"]
+[ext_resource type="Texture2D" uid="uid://cpnymobawhoxd" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_transition_N.png" id="177_27y0h"]
+[ext_resource type="Texture2D" uid="uid://noujjru16tyq" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_transition_S.png" id="178_q3wqw"]
+[ext_resource type="Texture2D" uid="uid://n1864twsurpb" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_transition_W.png" id="179_85txi"]
+[ext_resource type="Texture2D" uid="uid://bo71iwm6ea6wa" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_treeDouble_E.png" id="180_6c0nv"]
+[ext_resource type="Texture2D" uid="uid://b0hqi3g8il80r" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_treeDouble_N.png" id="181_8lq1r"]
+[ext_resource type="Texture2D" uid="uid://dkp6ksuvxsknn" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_treeDouble_S.png" id="182_hbcs1"]
+[ext_resource type="Texture2D" uid="uid://dobrfwx2q4h2f" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_treeDouble_W.png" id="183_vudmu"]
+[ext_resource type="Texture2D" uid="uid://de7smjdibo0rb" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_treeQuad_E.png" id="184_mwuf6"]
+[ext_resource type="Texture2D" uid="uid://c0u0jr3a8vwk5" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_treeQuad_N.png" id="185_tgmc7"]
+[ext_resource type="Texture2D" uid="uid://ccvgu067fbs6o" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_treeQuad_S.png" id="186_56h5i"]
+[ext_resource type="Texture2D" uid="uid://hiia7yk4mqj7" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_treeQuad_W.png" id="187_nehoy"]
+[ext_resource type="Texture2D" uid="uid://bagkhdby8mp7u" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_tree_E.png" id="188_kx52l"]
+[ext_resource type="Texture2D" uid="uid://bj6b5mbcvqrb5" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_tree_N.png" id="189_ocr0v"]
+[ext_resource type="Texture2D" uid="uid://clj0jdgp4ut63" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_tree_S.png" id="190_1eoeu"]
+[ext_resource type="Texture2D" uid="uid://f2hh0ckj4nyw" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_tree_W.png" id="191_4wx0m"]
+[ext_resource type="Texture2D" uid="uid://d0mfhx8r0sep7" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_W.png" id="192_fctll"]
+[ext_resource type="Texture2D" uid="uid://d8va6t4ufa7n" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_wideCorner_E.png" id="193_n7js1"]
+[ext_resource type="Texture2D" uid="uid://b8bi828xd2p2d" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_wideCorner_N.png" id="194_6n4wq"]
+[ext_resource type="Texture2D" uid="uid://dis6ac42yvq1d" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_wideCorner_S.png" id="195_ldhqr"]
+[ext_resource type="Texture2D" uid="uid://b3l2ewuqmcq7j" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_wideCorner_W.png" id="196_6a0ft"]
+[ext_resource type="Texture2D" uid="uid://bqnmr5jbbdem2" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_wideSplit_E.png" id="197_06oio"]
+[ext_resource type="Texture2D" uid="uid://b6t8sfm4rk5x" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_wideSplit_N.png" id="198_fg5i5"]
+[ext_resource type="Texture2D" uid="uid://6nyuk7ryhpuu" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_wideSplit_S.png" id="199_vpm8d"]
+[ext_resource type="Texture2D" uid="uid://dsgk8p7gq220l" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_wideSplit_W.png" id="200_05pqd"]
+[ext_resource type="Texture2D" uid="uid://baxa868h1opq8" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_wideStraight_E.png" id="201_3crwc"]
+[ext_resource type="Texture2D" uid="uid://b0b5sdkf14jvn" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_wideStraight_N.png" id="202_nsv4f"]
+[ext_resource type="Texture2D" uid="uid://bkggndgve4inl" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_wideStraight_S.png" id="203_vciyh"]
+[ext_resource type="Texture2D" uid="uid://bb4y8g5afbhdh" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_wideStraight_W.png" id="204_ibo7h"]
+[ext_resource type="Texture2D" uid="uid://dp0v11pq6f3m3" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_wideTransition_E.png" id="205_em266"]
+[ext_resource type="Texture2D" uid="uid://c2w2sch5b07d4" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_wideTransition_N.png" id="206_ccr2a"]
+[ext_resource type="Texture2D" uid="uid://dw2ea6et12hba" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_wideTransition_S.png" id="207_yrp6t"]
+[ext_resource type="Texture2D" uid="uid://ewur5ga6it43" path="res://addons/kenneypacks/isometric/Isometric/snow_tile_wideTransition_W.png" id="208_67sig"]
+[ext_resource type="Texture2D" uid="uid://mgsjyf4kft7a" path="res://addons/kenneypacks/isometric/Isometric/snow_woodStructure_E.png" id="209_7k7l2"]
+[ext_resource type="Texture2D" uid="uid://dnlnijld8qc3f" path="res://addons/kenneypacks/isometric/Isometric/snow_woodStructure_high_E.png" id="210_47jrj"]
+[ext_resource type="Texture2D" uid="uid://dimyhnggpikfw" path="res://addons/kenneypacks/isometric/Isometric/snow_woodStructure_high_N.png" id="211_ypm44"]
+[ext_resource type="Texture2D" uid="uid://q4ftxlivyv0t" path="res://addons/kenneypacks/isometric/Isometric/snow_woodStructure_high_S.png" id="212_g1imx"]
+[ext_resource type="Texture2D" uid="uid://c3rkj4o8730sh" path="res://addons/kenneypacks/isometric/Isometric/snow_woodStructure_high_W.png" id="213_8aswj"]
+[ext_resource type="Texture2D" uid="uid://untwm3komuyi" path="res://addons/kenneypacks/isometric/Isometric/snow_woodStructure_N.png" id="214_yi2gt"]
+[ext_resource type="Texture2D" uid="uid://b8algke8twbys" path="res://addons/kenneypacks/isometric/Isometric/snow_woodStructure_S.png" id="215_2ydoj"]
+[ext_resource type="Texture2D" uid="uid://c363b67b8gal4" path="res://addons/kenneypacks/isometric/Isometric/snow_woodStructure_W.png" id="216_crm2w"]
+[ext_resource type="Texture2D" uid="uid://diw75il72hchr" path="res://addons/kenneypacks/isometric/Isometric/tile_bump_E.png" id="217_o7il5"]
+[ext_resource type="Texture2D" uid="uid://clvinhl4ph7da" path="res://addons/kenneypacks/isometric/Isometric/tile_bump_N.png" id="218_et27l"]
+[ext_resource type="Texture2D" uid="uid://bwvu7da5abm6o" path="res://addons/kenneypacks/isometric/Isometric/tile_bump_S.png" id="219_73loy"]
+[ext_resource type="Texture2D" uid="uid://ccpp1diyjogdl" path="res://addons/kenneypacks/isometric/Isometric/tile_bump_W.png" id="220_w0m27"]
+[ext_resource type="Texture2D" uid="uid://2a2a5xq4h6qj" path="res://addons/kenneypacks/isometric/Isometric/tile_cornerInner_E.png" id="221_rmuq0"]
+[ext_resource type="Texture2D" uid="uid://bd7u5rmx3qwjb" path="res://addons/kenneypacks/isometric/Isometric/tile_cornerInner_N.png" id="222_jdcdh"]
+[ext_resource type="Texture2D" uid="uid://c8rnflrf3ls71" path="res://addons/kenneypacks/isometric/Isometric/tile_cornerInner_S.png" id="223_qbkxt"]
+[ext_resource type="Texture2D" uid="uid://dnlbvkqbwsi7n" path="res://addons/kenneypacks/isometric/Isometric/tile_cornerInner_W.png" id="224_2g2an"]
+[ext_resource type="Texture2D" uid="uid://mq0evcx8dxry" path="res://addons/kenneypacks/isometric/Isometric/tile_cornerLarge_E.png" id="225_oqqok"]
+[ext_resource type="Texture2D" uid="uid://cejwex6buq5j6" path="res://addons/kenneypacks/isometric/Isometric/tile_cornerLarge_N.png" id="226_epna2"]
+[ext_resource type="Texture2D" uid="uid://b677m3p4icfja" path="res://addons/kenneypacks/isometric/Isometric/tile_cornerLarge_S.png" id="227_jfunj"]
+[ext_resource type="Texture2D" uid="uid://bn8m4fv6c3iu1" path="res://addons/kenneypacks/isometric/Isometric/tile_cornerLarge_W.png" id="228_n542c"]
+[ext_resource type="Texture2D" uid="uid://dhnjvmm0nt6ni" path="res://addons/kenneypacks/isometric/Isometric/tile_cornerOuter_E.png" id="229_18lub"]
+[ext_resource type="Texture2D" uid="uid://bt7od7owsq0d6" path="res://addons/kenneypacks/isometric/Isometric/tile_cornerOuter_N.png" id="230_ilkh4"]
+[ext_resource type="Texture2D" uid="uid://c0ywuq2d33hl6" path="res://addons/kenneypacks/isometric/Isometric/tile_cornerOuter_S.png" id="231_nnnwg"]
+[ext_resource type="Texture2D" uid="uid://citpfvpsnuvsn" path="res://addons/kenneypacks/isometric/Isometric/tile_cornerOuter_W.png" id="232_wac2f"]
+[ext_resource type="Texture2D" uid="uid://buusuujtg74r3" path="res://addons/kenneypacks/isometric/Isometric/tile_cornerRound_E.png" id="233_g5xsy"]
+[ext_resource type="Texture2D" uid="uid://078xjwwjnenq" path="res://addons/kenneypacks/isometric/Isometric/tile_cornerRound_N.png" id="234_bpkur"]
+[ext_resource type="Texture2D" uid="uid://5f8grn0p4nk4" path="res://addons/kenneypacks/isometric/Isometric/tile_cornerRound_S.png" id="235_pqm8a"]
+[ext_resource type="Texture2D" uid="uid://bvmoojlqs7a8y" path="res://addons/kenneypacks/isometric/Isometric/tile_cornerRound_W.png" id="236_hlxt6"]
+[ext_resource type="Texture2D" uid="uid://16cgrpoph4dl" path="res://addons/kenneypacks/isometric/Isometric/tile_cornerSquare_E.png" id="237_xml6e"]
+[ext_resource type="Texture2D" uid="uid://r2vbc0iy157l" path="res://addons/kenneypacks/isometric/Isometric/tile_cornerSquare_N.png" id="238_5lolj"]
+[ext_resource type="Texture2D" uid="uid://bgui65gbdv3q5" path="res://addons/kenneypacks/isometric/Isometric/tile_cornerSquare_S.png" id="239_wc5c2"]
+[ext_resource type="Texture2D" uid="uid://roy5iu5yqbgp" path="res://addons/kenneypacks/isometric/Isometric/tile_cornerSquare_W.png" id="240_54mmu"]
+[ext_resource type="Texture2D" uid="uid://cemmm3m3ac1h4" path="res://addons/kenneypacks/isometric/Isometric/tile_crossing_E.png" id="241_jb4il"]
+[ext_resource type="Texture2D" uid="uid://dlxmyw5kxqawk" path="res://addons/kenneypacks/isometric/Isometric/tile_crossing_N.png" id="242_d6au4"]
+[ext_resource type="Texture2D" uid="uid://dsfi3wuwh1is" path="res://addons/kenneypacks/isometric/Isometric/tile_crossing_S.png" id="243_uxjph"]
+[ext_resource type="Texture2D" uid="uid://bvpepp1kkd5oc" path="res://addons/kenneypacks/isometric/Isometric/tile_crossing_W.png" id="244_1xtw6"]
+[ext_resource type="Texture2D" uid="uid://bbvgt2i3ql8a" path="res://addons/kenneypacks/isometric/Isometric/tile_crystal_E.png" id="245_1vevv"]
+[ext_resource type="Texture2D" uid="uid://cwb6k3dedtuqm" path="res://addons/kenneypacks/isometric/Isometric/tile_crystal_N.png" id="246_uyg1h"]
+[ext_resource type="Texture2D" uid="uid://cm3xnsftuq0d7" path="res://addons/kenneypacks/isometric/Isometric/tile_crystal_S.png" id="247_i772i"]
+[ext_resource type="Texture2D" uid="uid://bgc0ldk7s6nkm" path="res://addons/kenneypacks/isometric/Isometric/tile_crystal_W.png" id="248_tfdod"]
+[ext_resource type="Texture2D" uid="uid://dlmeoewar4pbo" path="res://addons/kenneypacks/isometric/Isometric/tile_dirtHigh_E.png" id="249_017iy"]
+[ext_resource type="Texture2D" uid="uid://dnf88a0nsj8ek" path="res://addons/kenneypacks/isometric/Isometric/tile_dirtHigh_N.png" id="250_hvrmj"]
+[ext_resource type="Texture2D" uid="uid://ulokqfk1sgh5" path="res://addons/kenneypacks/isometric/Isometric/tile_dirtHigh_S.png" id="251_8rutm"]
+[ext_resource type="Texture2D" uid="uid://danvdv4dnrfk3" path="res://addons/kenneypacks/isometric/Isometric/tile_dirtHigh_W.png" id="252_2ccya"]
+[ext_resource type="Texture2D" uid="uid://cremjthqyebsa" path="res://addons/kenneypacks/isometric/Isometric/tile_dirt_E.png" id="253_l5vau"]
+[ext_resource type="Texture2D" uid="uid://cr2uowee38rj6" path="res://addons/kenneypacks/isometric/Isometric/tile_dirt_N.png" id="254_hp3y3"]
+[ext_resource type="Texture2D" uid="uid://dodomptcb4qt6" path="res://addons/kenneypacks/isometric/Isometric/tile_dirt_S.png" id="255_nm06h"]
+[ext_resource type="Texture2D" uid="uid://8p4qmgq5qrxl" path="res://addons/kenneypacks/isometric/Isometric/tile_dirt_W.png" id="256_fpiig"]
+[ext_resource type="Texture2D" uid="uid://cuvgcgscv8k3j" path="res://addons/kenneypacks/isometric/Isometric/tile_E.png" id="257_hcbmj"]
+[ext_resource type="Texture2D" uid="uid://bwejoih5gpbe7" path="res://addons/kenneypacks/isometric/Isometric/tile_endRoundSpawn_E.png" id="258_28nya"]
+[ext_resource type="Texture2D" uid="uid://bq6iwrlley321" path="res://addons/kenneypacks/isometric/Isometric/tile_endRoundSpawn_N.png" id="259_1f8av"]
+[ext_resource type="Texture2D" uid="uid://b32e2by1regt6" path="res://addons/kenneypacks/isometric/Isometric/tile_endRoundSpawn_S.png" id="260_gg1jv"]
+[ext_resource type="Texture2D" uid="uid://b0h31h8ia2fpq" path="res://addons/kenneypacks/isometric/Isometric/tile_endRoundSpawn_W.png" id="261_fob0x"]
+[ext_resource type="Texture2D" uid="uid://dndypfldes6go" path="res://addons/kenneypacks/isometric/Isometric/tile_endRound_E.png" id="262_474t0"]
+[ext_resource type="Texture2D" uid="uid://dewo7ags2gcyd" path="res://addons/kenneypacks/isometric/Isometric/tile_endRound_N.png" id="263_2acjs"]
+[ext_resource type="Texture2D" uid="uid://drtp7ltpekokd" path="res://addons/kenneypacks/isometric/Isometric/tile_endRound_S.png" id="264_txsco"]
+[ext_resource type="Texture2D" uid="uid://bl2q6u3gect22" path="res://addons/kenneypacks/isometric/Isometric/tile_endRound_W.png" id="265_gitnb"]
+[ext_resource type="Texture2D" uid="uid://cvf3dycogak01" path="res://addons/kenneypacks/isometric/Isometric/tile_endSpawn_E.png" id="266_abpaf"]
+[ext_resource type="Texture2D" uid="uid://gml8580vsqat" path="res://addons/kenneypacks/isometric/Isometric/tile_endSpawn_N.png" id="267_gku2f"]
+[ext_resource type="Texture2D" uid="uid://bkurg6ego15ga" path="res://addons/kenneypacks/isometric/Isometric/tile_endSpawn_S.png" id="268_10k1s"]
+[ext_resource type="Texture2D" uid="uid://cnt8opk7ebak2" path="res://addons/kenneypacks/isometric/Isometric/tile_endSpawn_W.png" id="269_xr52o"]
+[ext_resource type="Texture2D" uid="uid://cxr36w7bnnhus" path="res://addons/kenneypacks/isometric/Isometric/tile_end_E.png" id="270_twunc"]
+[ext_resource type="Texture2D" uid="uid://bpmk0wygcxem8" path="res://addons/kenneypacks/isometric/Isometric/tile_end_N.png" id="271_b2mke"]
+[ext_resource type="Texture2D" uid="uid://c5bd5hn1rq3ky" path="res://addons/kenneypacks/isometric/Isometric/tile_end_S.png" id="272_vwvpj"]
+[ext_resource type="Texture2D" uid="uid://cbtii4f4dw501" path="res://addons/kenneypacks/isometric/Isometric/tile_end_W.png" id="273_vu8pj"]
+[ext_resource type="Texture2D" uid="uid://bs3435ov4asbp" path="res://addons/kenneypacks/isometric/Isometric/tile_hill_E.png" id="274_60dft"]
+[ext_resource type="Texture2D" uid="uid://k48kcusqp22h" path="res://addons/kenneypacks/isometric/Isometric/tile_hill_N.png" id="275_1s4ya"]
+[ext_resource type="Texture2D" uid="uid://ryip7b53wgd6" path="res://addons/kenneypacks/isometric/Isometric/tile_hill_S.png" id="276_3q7hx"]
+[ext_resource type="Texture2D" uid="uid://bpnp4orb7eqrq" path="res://addons/kenneypacks/isometric/Isometric/tile_hill_W.png" id="277_cds5u"]
+[ext_resource type="Texture2D" uid="uid://yxr60g0kjggd" path="res://addons/kenneypacks/isometric/Isometric/tile_N.png" id="278_whx35"]
+[ext_resource type="Texture2D" uid="uid://y0ok1qtr61aa" path="res://addons/kenneypacks/isometric/Isometric/tile_riverBridge_E.png" id="279_6u68p"]
+[ext_resource type="Texture2D" uid="uid://dmx5qe6nrbrcu" path="res://addons/kenneypacks/isometric/Isometric/tile_riverBridge_N.png" id="280_3ehw8"]
+[ext_resource type="Texture2D" uid="uid://tnhse4rvqakt" path="res://addons/kenneypacks/isometric/Isometric/tile_riverBridge_S.png" id="281_jho8q"]
+[ext_resource type="Texture2D" uid="uid://dn5khed71vmtn" path="res://addons/kenneypacks/isometric/Isometric/tile_riverBridge_W.png" id="282_mnstm"]
+[ext_resource type="Texture2D" uid="uid://cccopiywfx4r2" path="res://addons/kenneypacks/isometric/Isometric/tile_riverCorner_E.png" id="283_am6hh"]
+[ext_resource type="Texture2D" uid="uid://brp5nf2fxq6vq" path="res://addons/kenneypacks/isometric/Isometric/tile_riverCorner_N.png" id="284_0ipk7"]
+[ext_resource type="Texture2D" uid="uid://c04mngiiuj8gg" path="res://addons/kenneypacks/isometric/Isometric/tile_riverCorner_S.png" id="285_5f7dt"]
+[ext_resource type="Texture2D" uid="uid://lhpu3yw12o8n" path="res://addons/kenneypacks/isometric/Isometric/tile_riverCorner_W.png" id="286_rnbof"]
+[ext_resource type="Texture2D" uid="uid://d0dpudvrc7la3" path="res://addons/kenneypacks/isometric/Isometric/tile_riverFall_E.png" id="287_0pc52"]
+[ext_resource type="Texture2D" uid="uid://b6yiiv3752wwa" path="res://addons/kenneypacks/isometric/Isometric/tile_riverFall_N.png" id="288_f3nmt"]
+[ext_resource type="Texture2D" uid="uid://djrecja8y47nq" path="res://addons/kenneypacks/isometric/Isometric/tile_riverFall_S.png" id="289_ibb5o"]
+[ext_resource type="Texture2D" uid="uid://dcsaiaaqmrmei" path="res://addons/kenneypacks/isometric/Isometric/tile_riverFall_W.png" id="290_mp03i"]
+[ext_resource type="Texture2D" uid="uid://c5fvs5rff2b7a" path="res://addons/kenneypacks/isometric/Isometric/tile_riverSlopeLarge_E.png" id="291_ie2r4"]
+[ext_resource type="Texture2D" uid="uid://50my5425sgmd" path="res://addons/kenneypacks/isometric/Isometric/tile_riverSlopeLarge_N.png" id="292_h6xu7"]
+[ext_resource type="Texture2D" uid="uid://dbdhqmipf5kgn" path="res://addons/kenneypacks/isometric/Isometric/tile_riverSlopeLarge_S.png" id="293_wnmdh"]
+[ext_resource type="Texture2D" uid="uid://bocgralbrqng" path="res://addons/kenneypacks/isometric/Isometric/tile_riverSlopeLarge_W.png" id="294_j0pie"]
+[ext_resource type="Texture2D" uid="uid://r28bhtgg8q82" path="res://addons/kenneypacks/isometric/Isometric/tile_riverSlope_E.png" id="295_hcs1o"]
+[ext_resource type="Texture2D" uid="uid://bxv4mtn6k054y" path="res://addons/kenneypacks/isometric/Isometric/tile_riverSlope_N.png" id="296_ecu6k"]
+[ext_resource type="Texture2D" uid="uid://d1yg1p760nn3r" path="res://addons/kenneypacks/isometric/Isometric/tile_riverSlope_S.png" id="297_5orgv"]
+[ext_resource type="Texture2D" uid="uid://cyao6m1si8br8" path="res://addons/kenneypacks/isometric/Isometric/tile_riverSlope_W.png" id="298_qbw27"]
+[ext_resource type="Texture2D" uid="uid://di253dqmyo8f4" path="res://addons/kenneypacks/isometric/Isometric/tile_riverStraight_E.png" id="299_l5eeb"]
+[ext_resource type="Texture2D" uid="uid://cw0phqp68gu1t" path="res://addons/kenneypacks/isometric/Isometric/tile_riverStraight_N.png" id="300_v12er"]
+[ext_resource type="Texture2D" uid="uid://bdieo0wpgxc0s" path="res://addons/kenneypacks/isometric/Isometric/tile_riverStraight_S.png" id="301_ckyvf"]
+[ext_resource type="Texture2D" uid="uid://b08361psnyu31" path="res://addons/kenneypacks/isometric/Isometric/tile_riverStraight_W.png" id="302_ntxp6"]
+[ext_resource type="Texture2D" uid="uid://bvf2eq820qpn3" path="res://addons/kenneypacks/isometric/Isometric/tile_riverTransition_E.png" id="303_8qkvi"]
+[ext_resource type="Texture2D" uid="uid://dmpxv5mkojfqa" path="res://addons/kenneypacks/isometric/Isometric/tile_riverTransition_N.png" id="304_60g4e"]
+[ext_resource type="Texture2D" uid="uid://dcs3si5huerhg" path="res://addons/kenneypacks/isometric/Isometric/tile_riverTransition_S.png" id="305_j5xb0"]
+[ext_resource type="Texture2D" uid="uid://bhcpfmdi44k8k" path="res://addons/kenneypacks/isometric/Isometric/tile_riverTransition_W.png" id="306_e4x8k"]
+[ext_resource type="Texture2D" uid="uid://dbd8esyy4hcjr" path="res://addons/kenneypacks/isometric/Isometric/tile_rock_E.png" id="307_ffhjh"]
+[ext_resource type="Texture2D" uid="uid://c0b8ai3dscpr6" path="res://addons/kenneypacks/isometric/Isometric/tile_rock_N.png" id="308_bwl34"]
+[ext_resource type="Texture2D" uid="uid://dp6582p046iv6" path="res://addons/kenneypacks/isometric/Isometric/tile_rock_S.png" id="309_cxi1o"]
+[ext_resource type="Texture2D" uid="uid://2ylsh66h7svy" path="res://addons/kenneypacks/isometric/Isometric/tile_rock_W.png" id="310_imsqe"]
+[ext_resource type="Texture2D" uid="uid://cb5y81w086kdr" path="res://addons/kenneypacks/isometric/Isometric/tile_S.png" id="311_f25hd"]
+[ext_resource type="Texture2D" uid="uid://c1d1m86klww60" path="res://addons/kenneypacks/isometric/Isometric/tile_slope_E.png" id="312_2wvvj"]
+[ext_resource type="Texture2D" uid="uid://cc8xpa855jwur" path="res://addons/kenneypacks/isometric/Isometric/tile_slope_N.png" id="313_x6cgk"]
+[ext_resource type="Texture2D" uid="uid://sbtwxng0ddjc" path="res://addons/kenneypacks/isometric/Isometric/tile_slope_S.png" id="314_olasc"]
+[ext_resource type="Texture2D" uid="uid://b7i1ivtu2cbhv" path="res://addons/kenneypacks/isometric/Isometric/tile_slope_W.png" id="315_bqgk2"]
+[ext_resource type="Texture2D" uid="uid://hlyli347fn6w" path="res://addons/kenneypacks/isometric/Isometric/tile_spawnRound_E.png" id="316_72l1l"]
+[ext_resource type="Texture2D" uid="uid://j6dfir37q445" path="res://addons/kenneypacks/isometric/Isometric/tile_spawnRound_N.png" id="317_rw2sf"]
+[ext_resource type="Texture2D" uid="uid://bcahusgkuw0nw" path="res://addons/kenneypacks/isometric/Isometric/tile_spawnRound_S.png" id="318_wwgm5"]
+[ext_resource type="Texture2D" uid="uid://6t0y0rnwmcnj" path="res://addons/kenneypacks/isometric/Isometric/tile_spawnRound_W.png" id="319_rfmxv"]
+[ext_resource type="Texture2D" uid="uid://duxhssi286lnp" path="res://addons/kenneypacks/isometric/Isometric/tile_spawn_E.png" id="320_65xxi"]
+[ext_resource type="Texture2D" uid="uid://c8ong0nta2a3n" path="res://addons/kenneypacks/isometric/Isometric/tile_spawn_N.png" id="321_vowmv"]
+[ext_resource type="Texture2D" uid="uid://txfbonsq1vsd" path="res://addons/kenneypacks/isometric/Isometric/tile_spawn_S.png" id="322_e3hi0"]
+[ext_resource type="Texture2D" uid="uid://c78vqwuuhpyi8" path="res://addons/kenneypacks/isometric/Isometric/tile_spawn_W.png" id="323_e64io"]
+[ext_resource type="Texture2D" uid="uid://cjtpc6nxsxhyw" path="res://addons/kenneypacks/isometric/Isometric/tile_split_E.png" id="324_5ywnq"]
+[ext_resource type="Texture2D" uid="uid://caj4q6xou5i5e" path="res://addons/kenneypacks/isometric/Isometric/tile_split_N.png" id="325_obsyi"]
+[ext_resource type="Texture2D" uid="uid://bh3ohynelie0y" path="res://addons/kenneypacks/isometric/Isometric/tile_split_S.png" id="326_3gbhe"]
+[ext_resource type="Texture2D" uid="uid://hmg48d36eyxo" path="res://addons/kenneypacks/isometric/Isometric/tile_split_W.png" id="327_y2ggb"]
+[ext_resource type="Texture2D" uid="uid://ds266c7vkttae" path="res://addons/kenneypacks/isometric/Isometric/tile_straightHillLarge_E.png" id="328_d5v2p"]
+[ext_resource type="Texture2D" uid="uid://efgwqjj72lk0" path="res://addons/kenneypacks/isometric/Isometric/tile_straightHillLarge_N.png" id="329_fq6fh"]
+[ext_resource type="Texture2D" uid="uid://dnyn3w0t7dgea" path="res://addons/kenneypacks/isometric/Isometric/tile_straightHillLarge_S.png" id="330_4664c"]
+[ext_resource type="Texture2D" uid="uid://hmenmtljb15v" path="res://addons/kenneypacks/isometric/Isometric/tile_straightHillLarge_W.png" id="331_bknl2"]
+[ext_resource type="Texture2D" uid="uid://cxxt0mymeol6i" path="res://addons/kenneypacks/isometric/Isometric/tile_straightHill_E.png" id="332_vo1wp"]
+[ext_resource type="Texture2D" uid="uid://k1b78cu03fq5" path="res://addons/kenneypacks/isometric/Isometric/tile_straightHill_N.png" id="333_c5y2x"]
+[ext_resource type="Texture2D" uid="uid://bepi1qbfxy4ha" path="res://addons/kenneypacks/isometric/Isometric/tile_straightHill_S.png" id="334_ftug3"]
+[ext_resource type="Texture2D" uid="uid://cfd33n6dcc0dc" path="res://addons/kenneypacks/isometric/Isometric/tile_straightHill_W.png" id="335_6h2y3"]
+[ext_resource type="Texture2D" uid="uid://blqf2ddqorwfl" path="res://addons/kenneypacks/isometric/Isometric/tile_straight_E.png" id="336_b0i3m"]
+[ext_resource type="Texture2D" uid="uid://d3qs6od1w27nr" path="res://addons/kenneypacks/isometric/Isometric/tile_straight_N.png" id="337_et2vx"]
+[ext_resource type="Texture2D" uid="uid://b08tjnqihjglm" path="res://addons/kenneypacks/isometric/Isometric/tile_straight_S.png" id="338_bfbva"]
+[ext_resource type="Texture2D" uid="uid://bxijdiu0by784" path="res://addons/kenneypacks/isometric/Isometric/tile_straight_W.png" id="339_8dv47"]
+[ext_resource type="Texture2D" uid="uid://ckjmj4pxtvdj7" path="res://addons/kenneypacks/isometric/Isometric/tile_transition_E.png" id="340_idfvq"]
+[ext_resource type="Texture2D" uid="uid://mdllg4ao3xj1" path="res://addons/kenneypacks/isometric/Isometric/tile_transition_N.png" id="341_5hijh"]
+[ext_resource type="Texture2D" uid="uid://hl412626p5l5" path="res://addons/kenneypacks/isometric/Isometric/tile_transition_S.png" id="342_v5a2u"]
+[ext_resource type="Texture2D" uid="uid://c8ln4rxgq87v3" path="res://addons/kenneypacks/isometric/Isometric/tile_transition_W.png" id="343_4308d"]
+[ext_resource type="Texture2D" uid="uid://bn0mdfwovucn0" path="res://addons/kenneypacks/isometric/Isometric/tile_treeDouble_E.png" id="344_b15bu"]
+[ext_resource type="Texture2D" uid="uid://dl1mntfwte7f2" path="res://addons/kenneypacks/isometric/Isometric/tile_treeDouble_N.png" id="345_m4luc"]
+[ext_resource type="Texture2D" uid="uid://dc7llhoujglrt" path="res://addons/kenneypacks/isometric/Isometric/tile_treeDouble_S.png" id="346_sewt7"]
+[ext_resource type="Texture2D" uid="uid://1ikf4aid4ex8" path="res://addons/kenneypacks/isometric/Isometric/tile_treeDouble_W.png" id="347_54au7"]
+[ext_resource type="Texture2D" uid="uid://c4b7ua5vmx6ej" path="res://addons/kenneypacks/isometric/Isometric/tile_treeQuad_E.png" id="348_tev56"]
+[ext_resource type="Texture2D" uid="uid://cbwmms2m0qmb2" path="res://addons/kenneypacks/isometric/Isometric/tile_treeQuad_N.png" id="349_fykru"]
+[ext_resource type="Texture2D" uid="uid://b0lo3up7lxd0b" path="res://addons/kenneypacks/isometric/Isometric/tile_treeQuad_S.png" id="350_0jkib"]
+[ext_resource type="Texture2D" uid="uid://qs5ag6bk8jcg" path="res://addons/kenneypacks/isometric/Isometric/tile_treeQuad_W.png" id="351_f1pxm"]
+[ext_resource type="Texture2D" uid="uid://ba6hepajg3160" path="res://addons/kenneypacks/isometric/Isometric/tile_tree_E.png" id="352_qtueo"]
+[ext_resource type="Texture2D" uid="uid://bma2kk0pcdtfg" path="res://addons/kenneypacks/isometric/Isometric/tile_tree_N.png" id="353_o7pqp"]
+[ext_resource type="Texture2D" uid="uid://cphscbkaymd1y" path="res://addons/kenneypacks/isometric/Isometric/tile_tree_S.png" id="354_4omx5"]
+[ext_resource type="Texture2D" uid="uid://dbdsq06466wt2" path="res://addons/kenneypacks/isometric/Isometric/tile_tree_W.png" id="355_3h1u2"]
+[ext_resource type="Texture2D" uid="uid://b2s7xs8cu6uan" path="res://addons/kenneypacks/isometric/Isometric/tile_W.png" id="356_fqtli"]
+[ext_resource type="Texture2D" uid="uid://c5g2ct7tvnp5y" path="res://addons/kenneypacks/isometric/Isometric/tile_wideCorner_E.png" id="357_o5tll"]
+[ext_resource type="Texture2D" uid="uid://bw4lt0kf6inr6" path="res://addons/kenneypacks/isometric/Isometric/tile_wideCorner_N.png" id="358_fyr8g"]
+[ext_resource type="Texture2D" uid="uid://snb2tpsya4n1" path="res://addons/kenneypacks/isometric/Isometric/tile_wideCorner_S.png" id="359_fkgg5"]
+[ext_resource type="Texture2D" uid="uid://1ysma0qgw3yr" path="res://addons/kenneypacks/isometric/Isometric/tile_wideCorner_W.png" id="360_rg0eu"]
+[ext_resource type="Texture2D" uid="uid://cm3sv5xq4is70" path="res://addons/kenneypacks/isometric/Isometric/tile_wideSplit_E.png" id="361_a4ile"]
+[ext_resource type="Texture2D" uid="uid://bwpeakd1oy42a" path="res://addons/kenneypacks/isometric/Isometric/tile_wideSplit_N.png" id="362_vnpc1"]
+[ext_resource type="Texture2D" uid="uid://dghidalvskl3c" path="res://addons/kenneypacks/isometric/Isometric/tile_wideSplit_S.png" id="363_juc0o"]
+[ext_resource type="Texture2D" uid="uid://bt45vj60cuae5" path="res://addons/kenneypacks/isometric/Isometric/tile_wideSplit_W.png" id="364_68hc4"]
+[ext_resource type="Texture2D" uid="uid://8d52kr7g2tbj" path="res://addons/kenneypacks/isometric/Isometric/tile_wideStraight_E.png" id="365_bwkat"]
+[ext_resource type="Texture2D" uid="uid://cv4n15eqdablr" path="res://addons/kenneypacks/isometric/Isometric/tile_wideStraight_N.png" id="366_k1ne0"]
+[ext_resource type="Texture2D" uid="uid://cqbjdcqmm1pt" path="res://addons/kenneypacks/isometric/Isometric/tile_wideStraight_S.png" id="367_1020s"]
+[ext_resource type="Texture2D" uid="uid://dk4tgdql8e1yv" path="res://addons/kenneypacks/isometric/Isometric/tile_wideStraight_W.png" id="368_3dx8c"]
+[ext_resource type="Texture2D" uid="uid://cnslx4dy00k0c" path="res://addons/kenneypacks/isometric/Isometric/tile_wideTransition_E.png" id="369_jtqdh"]
+[ext_resource type="Texture2D" uid="uid://bna80g41xabeq" path="res://addons/kenneypacks/isometric/Isometric/tile_wideTransition_N.png" id="370_yb1ch"]
+[ext_resource type="Texture2D" uid="uid://dq55d0eyfyc7" path="res://addons/kenneypacks/isometric/Isometric/tile_wideTransition_S.png" id="371_xmwho"]
+[ext_resource type="Texture2D" uid="uid://bofbu7s46kawo" path="res://addons/kenneypacks/isometric/Isometric/tile_wideTransition_W.png" id="372_ebqi6"]
+[ext_resource type="Texture2D" uid="uid://b5ph1ije2gf0x" path="res://addons/kenneypacks/isometric/Isometric/woodStructure_E.png" id="373_6b6nd"]
+[ext_resource type="Texture2D" uid="uid://bkdnn54inpctv" path="res://addons/kenneypacks/isometric/Isometric/woodStructure_high_E.png" id="374_mfsbu"]
+[ext_resource type="Texture2D" uid="uid://dvkhw44yid0vi" path="res://addons/kenneypacks/isometric/Isometric/woodStructure_high_N.png" id="375_0u6t8"]
+[ext_resource type="Texture2D" uid="uid://dxh15c4rt3cyn" path="res://addons/kenneypacks/isometric/Isometric/woodStructure_high_S.png" id="376_ld1ai"]
+[ext_resource type="Texture2D" uid="uid://k1bweybp7fii" path="res://addons/kenneypacks/isometric/Isometric/woodStructure_high_W.png" id="377_xo782"]
+[ext_resource type="Texture2D" uid="uid://crjfltax7bt8g" path="res://addons/kenneypacks/isometric/Isometric/woodStructure_N.png" id="378_23dsd"]
+[ext_resource type="Texture2D" uid="uid://cyykfjlydp4ah" path="res://addons/kenneypacks/isometric/Isometric/woodStructure_S.png" id="379_244h4"]
+[ext_resource type="Texture2D" uid="uid://gs8f82dvhawi" path="res://addons/kenneypacks/isometric/Isometric/woodStructure_W.png" id="380_qdj2b"]
+
+[node name="TileSet" type="Node2D"]
+
+[node name="DetailCrystalLargeE" type="Sprite2D" parent="."]
+texture = ExtResource("1_u1dk3")
+
+[node name="DetailCrystalLargeN" type="Sprite2D" parent="."]
+texture = ExtResource("2_0ggce")
+
+[node name="DetailCrystalLargeS" type="Sprite2D" parent="."]
+texture = ExtResource("3_msff3")
+
+[node name="DetailCrystalLargeW" type="Sprite2D" parent="."]
+texture = ExtResource("4_pa87o")
+
+[node name="DetailCrystalE" type="Sprite2D" parent="."]
+texture = ExtResource("5_vlpcr")
+
+[node name="DetailCrystalN" type="Sprite2D" parent="."]
+texture = ExtResource("6_w1api")
+
+[node name="DetailCrystalS" type="Sprite2D" parent="."]
+texture = ExtResource("7_enyv7")
+
+[node name="DetailCrystalW" type="Sprite2D" parent="."]
+texture = ExtResource("8_s0mwn")
+
+[node name="DetailDirtLargeE" type="Sprite2D" parent="."]
+texture = ExtResource("9_5lp7o")
+
+[node name="DetailDirtLargeN" type="Sprite2D" parent="."]
+texture = ExtResource("10_8r1y2")
+
+[node name="DetailDirtLargeS" type="Sprite2D" parent="."]
+texture = ExtResource("11_s2r8k")
+
+[node name="DetailDirtLargeW" type="Sprite2D" parent="."]
+texture = ExtResource("12_sgqkl")
+
+[node name="DetailDirtE" type="Sprite2D" parent="."]
+texture = ExtResource("13_1b1e2")
+
+[node name="DetailDirtN" type="Sprite2D" parent="."]
+texture = ExtResource("14_4etxm")
+
+[node name="DetailDirtS" type="Sprite2D" parent="."]
+texture = ExtResource("15_fsa3g")
+
+[node name="DetailDirtW" type="Sprite2D" parent="."]
+texture = ExtResource("16_em5bd")
+
+[node name="DetailRocksLargeE" type="Sprite2D" parent="."]
+texture = ExtResource("17_er24b")
+
+[node name="DetailRocksLargeN" type="Sprite2D" parent="."]
+texture = ExtResource("18_3w8fu")
+
+[node name="DetailRocksLargeS" type="Sprite2D" parent="."]
+texture = ExtResource("19_ki2va")
+
+[node name="DetailRocksLargeW" type="Sprite2D" parent="."]
+texture = ExtResource("20_kryqh")
+
+[node name="DetailRocksE" type="Sprite2D" parent="."]
+texture = ExtResource("21_khlsu")
+
+[node name="DetailRocksN" type="Sprite2D" parent="."]
+texture = ExtResource("22_6jnbg")
+
+[node name="DetailRocksS" type="Sprite2D" parent="."]
+texture = ExtResource("23_ku71v")
+
+[node name="DetailRocksW" type="Sprite2D" parent="."]
+texture = ExtResource("24_0k74v")
+
+[node name="DetailTreeLargeE" type="Sprite2D" parent="."]
+texture = ExtResource("25_d8j0g")
+
+[node name="DetailTreeLargeN" type="Sprite2D" parent="."]
+texture = ExtResource("26_3lw1b")
+
+[node name="DetailTreeLargeS" type="Sprite2D" parent="."]
+texture = ExtResource("27_b1810")
+
+[node name="DetailTreeLargeW" type="Sprite2D" parent="."]
+texture = ExtResource("28_2ijhx")
+
+[node name="DetailTreeE" type="Sprite2D" parent="."]
+texture = ExtResource("29_idbku")
+
+[node name="DetailTreeN" type="Sprite2D" parent="."]
+texture = ExtResource("30_1yotg")
+
+[node name="DetailTreeS" type="Sprite2D" parent="."]
+texture = ExtResource("31_aosyd")
+
+[node name="DetailTreeW" type="Sprite2D" parent="."]
+texture = ExtResource("32_7284r")
+
+[node name="SnowDetailCrystalLargeE" type="Sprite2D" parent="."]
+texture = ExtResource("33_f6x8a")
+
+[node name="SnowDetailCrystalLargeN" type="Sprite2D" parent="."]
+texture = ExtResource("34_npd11")
+
+[node name="SnowDetailCrystalLargeS" type="Sprite2D" parent="."]
+texture = ExtResource("35_qcbqp")
+
+[node name="SnowDetailCrystalLargeW" type="Sprite2D" parent="."]
+texture = ExtResource("36_atesi")
+
+[node name="SnowDetailCrystalE" type="Sprite2D" parent="."]
+texture = ExtResource("37_hmxwp")
+
+[node name="SnowDetailCrystalN" type="Sprite2D" parent="."]
+texture = ExtResource("38_wirty")
+
+[node name="SnowDetailCrystalS" type="Sprite2D" parent="."]
+texture = ExtResource("39_euqsf")
+
+[node name="SnowDetailCrystalW" type="Sprite2D" parent="."]
+texture = ExtResource("40_1qiuh")
+
+[node name="SnowDetailDirtLargeE" type="Sprite2D" parent="."]
+texture = ExtResource("41_laerp")
+
+[node name="SnowDetailDirtLargeN" type="Sprite2D" parent="."]
+texture = ExtResource("42_215h2")
+
+[node name="SnowDetailDirtLargeS" type="Sprite2D" parent="."]
+texture = ExtResource("43_s8mol")
+
+[node name="SnowDetailDirtLargeW" type="Sprite2D" parent="."]
+texture = ExtResource("44_comnb")
+
+[node name="SnowDetailDirtE" type="Sprite2D" parent="."]
+texture = ExtResource("45_ie6pt")
+
+[node name="SnowDetailDirtN" type="Sprite2D" parent="."]
+texture = ExtResource("46_03s3h")
+
+[node name="SnowDetailDirtS" type="Sprite2D" parent="."]
+texture = ExtResource("47_jilc6")
+
+[node name="SnowDetailDirtW" type="Sprite2D" parent="."]
+texture = ExtResource("48_gbiv6")
+
+[node name="SnowDetailRocksLargeE" type="Sprite2D" parent="."]
+texture = ExtResource("49_cc507")
+
+[node name="SnowDetailRocksLargeN" type="Sprite2D" parent="."]
+texture = ExtResource("50_26a78")
+
+[node name="SnowDetailRocksLargeS" type="Sprite2D" parent="."]
+texture = ExtResource("51_0k6im")
+
+[node name="SnowDetailRocksLargeW" type="Sprite2D" parent="."]
+texture = ExtResource("52_oqoc0")
+
+[node name="SnowDetailRocksE" type="Sprite2D" parent="."]
+texture = ExtResource("53_4b7o5")
+
+[node name="SnowDetailRocksN" type="Sprite2D" parent="."]
+texture = ExtResource("54_ju0if")
+
+[node name="SnowDetailRocksS" type="Sprite2D" parent="."]
+texture = ExtResource("55_a5u0y")
+
+[node name="SnowDetailRocksW" type="Sprite2D" parent="."]
+texture = ExtResource("56_0fyw2")
+
+[node name="SnowDetailTreeLargeE" type="Sprite2D" parent="."]
+texture = ExtResource("57_lnr36")
+
+[node name="SnowDetailTreeLargeN" type="Sprite2D" parent="."]
+texture = ExtResource("58_ax80v")
+
+[node name="SnowDetailTreeLargeS" type="Sprite2D" parent="."]
+texture = ExtResource("59_de04m")
+
+[node name="SnowDetailTreeLargeW" type="Sprite2D" parent="."]
+texture = ExtResource("60_tronr")
+
+[node name="SnowDetailTreeE" type="Sprite2D" parent="."]
+texture = ExtResource("61_qp8u5")
+
+[node name="SnowDetailTreeN" type="Sprite2D" parent="."]
+texture = ExtResource("62_j1k72")
+
+[node name="SnowDetailTreeS" type="Sprite2D" parent="."]
+texture = ExtResource("63_gspjp")
+
+[node name="SnowDetailTreeW" type="Sprite2D" parent="."]
+texture = ExtResource("64_fcp58")
+
+[node name="SnowTileBumpE" type="Sprite2D" parent="."]
+texture = ExtResource("65_8653f")
+
+[node name="SnowTileBumpN" type="Sprite2D" parent="."]
+texture = ExtResource("66_g13u7")
+
+[node name="SnowTileBumpS" type="Sprite2D" parent="."]
+texture = ExtResource("67_l7nfk")
+
+[node name="SnowTileBumpW" type="Sprite2D" parent="."]
+texture = ExtResource("68_ibqug")
+
+[node name="SnowTileCornerInnerE" type="Sprite2D" parent="."]
+texture = ExtResource("69_lyv3i")
+
+[node name="SnowTileCornerInnerN" type="Sprite2D" parent="."]
+texture = ExtResource("70_03gp5")
+
+[node name="SnowTileCornerInnerS" type="Sprite2D" parent="."]
+texture = ExtResource("71_44tsp")
+
+[node name="SnowTileCornerInnerW" type="Sprite2D" parent="."]
+texture = ExtResource("72_cts17")
+
+[node name="SnowTileCornerLargeE" type="Sprite2D" parent="."]
+texture = ExtResource("73_2n4oy")
+
+[node name="SnowTileCornerLargeN" type="Sprite2D" parent="."]
+texture = ExtResource("74_eiwxf")
+
+[node name="SnowTileCornerLargeS" type="Sprite2D" parent="."]
+texture = ExtResource("75_5ygr7")
+
+[node name="SnowTileCornerLargeW" type="Sprite2D" parent="."]
+texture = ExtResource("76_h4j5g")
+
+[node name="SnowTileCornerOuterE" type="Sprite2D" parent="."]
+texture = ExtResource("77_6gl1x")
+
+[node name="SnowTileCornerOuterN" type="Sprite2D" parent="."]
+texture = ExtResource("78_eqyx6")
+
+[node name="SnowTileCornerOuterS" type="Sprite2D" parent="."]
+texture = ExtResource("79_0h0qq")
+
+[node name="SnowTileCornerOuterW" type="Sprite2D" parent="."]
+texture = ExtResource("80_rw4bq")
+
+[node name="SnowTileCornerRoundE" type="Sprite2D" parent="."]
+texture = ExtResource("81_bwabu")
+
+[node name="SnowTileCornerRoundN" type="Sprite2D" parent="."]
+texture = ExtResource("82_xj7nf")
+
+[node name="SnowTileCornerRoundS" type="Sprite2D" parent="."]
+texture = ExtResource("83_qphsd")
+
+[node name="SnowTileCornerRoundW" type="Sprite2D" parent="."]
+texture = ExtResource("84_i0ckh")
+
+[node name="SnowTileCornerSquareE" type="Sprite2D" parent="."]
+texture = ExtResource("85_x2va3")
+
+[node name="SnowTileCornerSquareN" type="Sprite2D" parent="."]
+texture = ExtResource("86_jfagn")
+
+[node name="SnowTileCornerSquareS" type="Sprite2D" parent="."]
+texture = ExtResource("87_yosa6")
+
+[node name="SnowTileCornerSquareW" type="Sprite2D" parent="."]
+texture = ExtResource("88_iwv1s")
+
+[node name="SnowTileCrossingE" type="Sprite2D" parent="."]
+texture = ExtResource("89_gakwe")
+
+[node name="SnowTileCrossingN" type="Sprite2D" parent="."]
+texture = ExtResource("90_irwy4")
+
+[node name="SnowTileCrossingS" type="Sprite2D" parent="."]
+texture = ExtResource("91_2f2nn")
+
+[node name="SnowTileCrossingW" type="Sprite2D" parent="."]
+texture = ExtResource("92_7nwxl")
+
+[node name="SnowTileCrystalE" type="Sprite2D" parent="."]
+texture = ExtResource("93_ev74j")
+
+[node name="SnowTileCrystalN" type="Sprite2D" parent="."]
+texture = ExtResource("94_mmcjx")
+
+[node name="SnowTileCrystalS" type="Sprite2D" parent="."]
+texture = ExtResource("95_enmhq")
+
+[node name="SnowTileCrystalW" type="Sprite2D" parent="."]
+texture = ExtResource("96_p8aqe")
+
+[node name="SnowTileE" type="Sprite2D" parent="."]
+texture = ExtResource("97_yb7vh")
+
+[node name="SnowTileEndRoundSpawnE" type="Sprite2D" parent="."]
+texture = ExtResource("98_2h4gh")
+
+[node name="SnowTileEndRoundSpawnN" type="Sprite2D" parent="."]
+texture = ExtResource("99_sbyq1")
+
+[node name="SnowTileEndRoundSpawnS" type="Sprite2D" parent="."]
+texture = ExtResource("100_qppcp")
+
+[node name="SnowTileEndRoundSpawnW" type="Sprite2D" parent="."]
+texture = ExtResource("101_wuoqd")
+
+[node name="SnowTileEndRoundE" type="Sprite2D" parent="."]
+texture = ExtResource("102_irhlt")
+
+[node name="SnowTileEndRoundN" type="Sprite2D" parent="."]
+texture = ExtResource("103_m8u15")
+
+[node name="SnowTileEndRoundS" type="Sprite2D" parent="."]
+texture = ExtResource("104_ofk3x")
+
+[node name="SnowTileEndRoundW" type="Sprite2D" parent="."]
+texture = ExtResource("105_y3146")
+
+[node name="SnowTileEndE" type="Sprite2D" parent="."]
+texture = ExtResource("106_rb2k6")
+
+[node name="SnowTileEndN" type="Sprite2D" parent="."]
+texture = ExtResource("107_gi8ky")
+
+[node name="SnowTileEndS" type="Sprite2D" parent="."]
+texture = ExtResource("108_kumhs")
+
+[node name="SnowTileEndW" type="Sprite2D" parent="."]
+texture = ExtResource("109_oj4n2")
+
+[node name="SnowTileHillE" type="Sprite2D" parent="."]
+texture = ExtResource("110_tmuub")
+
+[node name="SnowTileHillN" type="Sprite2D" parent="."]
+texture = ExtResource("111_tia4p")
+
+[node name="SnowTileHillS" type="Sprite2D" parent="."]
+texture = ExtResource("112_p631h")
+
+[node name="SnowTileHillW" type="Sprite2D" parent="."]
+texture = ExtResource("113_a3bau")
+
+[node name="SnowTileN" type="Sprite2D" parent="."]
+texture = ExtResource("114_xnqdt")
+
+[node name="SnowTileRiverBridgeE" type="Sprite2D" parent="."]
+texture = ExtResource("115_d351e")
+
+[node name="SnowTileRiverBridgeN" type="Sprite2D" parent="."]
+texture = ExtResource("116_orovf")
+
+[node name="SnowTileRiverBridgeS" type="Sprite2D" parent="."]
+texture = ExtResource("117_4otpt")
+
+[node name="SnowTileRiverBridgeW" type="Sprite2D" parent="."]
+texture = ExtResource("118_74q81")
+
+[node name="SnowTileRiverCornerE" type="Sprite2D" parent="."]
+texture = ExtResource("119_glt3s")
+
+[node name="SnowTileRiverCornerN" type="Sprite2D" parent="."]
+texture = ExtResource("120_tmbus")
+
+[node name="SnowTileRiverCornerS" type="Sprite2D" parent="."]
+texture = ExtResource("121_kjkjw")
+
+[node name="SnowTileRiverCornerW" type="Sprite2D" parent="."]
+texture = ExtResource("122_8vg5n")
+
+[node name="SnowTileRiverFallE" type="Sprite2D" parent="."]
+texture = ExtResource("123_u4hel")
+
+[node name="SnowTileRiverFallN" type="Sprite2D" parent="."]
+texture = ExtResource("124_2j4pc")
+
+[node name="SnowTileRiverFallS" type="Sprite2D" parent="."]
+texture = ExtResource("125_oorun")
+
+[node name="SnowTileRiverFallW" type="Sprite2D" parent="."]
+texture = ExtResource("126_jn7gv")
+
+[node name="SnowTileRiverSlopeLargeE" type="Sprite2D" parent="."]
+texture = ExtResource("127_dki6m")
+
+[node name="SnowTileRiverSlopeLargeN" type="Sprite2D" parent="."]
+texture = ExtResource("128_gwufi")
+
+[node name="SnowTileRiverSlopeLargeS" type="Sprite2D" parent="."]
+texture = ExtResource("129_o25en")
+
+[node name="SnowTileRiverSlopeLargeW" type="Sprite2D" parent="."]
+texture = ExtResource("130_u5x67")
+
+[node name="SnowTileRiverSlopeE" type="Sprite2D" parent="."]
+texture = ExtResource("131_wrluh")
+
+[node name="SnowTileRiverSlopeN" type="Sprite2D" parent="."]
+texture = ExtResource("132_5v10c")
+
+[node name="SnowTileRiverSlopeS" type="Sprite2D" parent="."]
+texture = ExtResource("133_gr8v6")
+
+[node name="SnowTileRiverSlopeW" type="Sprite2D" parent="."]
+texture = ExtResource("134_hgsbh")
+
+[node name="SnowTileRiverStraightE" type="Sprite2D" parent="."]
+texture = ExtResource("135_y4gil")
+
+[node name="SnowTileRiverStraightN" type="Sprite2D" parent="."]
+texture = ExtResource("136_2bj5t")
+
+[node name="SnowTileRiverStraightS" type="Sprite2D" parent="."]
+texture = ExtResource("137_bx52d")
+
+[node name="SnowTileRiverStraightW" type="Sprite2D" parent="."]
+texture = ExtResource("138_ird8f")
+
+[node name="SnowTileRiverTransitionE" type="Sprite2D" parent="."]
+texture = ExtResource("139_ppxtf")
+
+[node name="SnowTileRiverTransitionN" type="Sprite2D" parent="."]
+texture = ExtResource("140_toq1g")
+
+[node name="SnowTileRiverTransitionS" type="Sprite2D" parent="."]
+texture = ExtResource("141_2ssw7")
+
+[node name="SnowTileRiverTransitionW" type="Sprite2D" parent="."]
+texture = ExtResource("142_d32ub")
+
+[node name="SnowTileRockE" type="Sprite2D" parent="."]
+texture = ExtResource("143_lwwex")
+
+[node name="SnowTileRockN" type="Sprite2D" parent="."]
+texture = ExtResource("144_6kkqt")
+
+[node name="SnowTileRockS" type="Sprite2D" parent="."]
+texture = ExtResource("145_dnioi")
+
+[node name="SnowTileRockW" type="Sprite2D" parent="."]
+texture = ExtResource("146_bl37y")
+
+[node name="SnowTileS" type="Sprite2D" parent="."]
+texture = ExtResource("147_27jvf")
+
+[node name="SnowTileSlopeE" type="Sprite2D" parent="."]
+texture = ExtResource("148_0f7m3")
+
+[node name="SnowTileSlopeN" type="Sprite2D" parent="."]
+texture = ExtResource("149_wxsjk")
+
+[node name="SnowTileSlopeS" type="Sprite2D" parent="."]
+texture = ExtResource("150_ki06p")
+
+[node name="SnowTileSlopeW" type="Sprite2D" parent="."]
+texture = ExtResource("151_nw0ll")
+
+[node name="SnowTileSpawnRoundE" type="Sprite2D" parent="."]
+texture = ExtResource("152_rhpeg")
+
+[node name="SnowTileSpawnRoundN" type="Sprite2D" parent="."]
+texture = ExtResource("153_5eyc6")
+
+[node name="SnowTileSpawnRoundS" type="Sprite2D" parent="."]
+texture = ExtResource("154_pybql")
+
+[node name="SnowTileSpawnRoundW" type="Sprite2D" parent="."]
+texture = ExtResource("155_rsfwr")
+
+[node name="SnowTileSpawnE" type="Sprite2D" parent="."]
+texture = ExtResource("156_w42lq")
+
+[node name="SnowTileSpawnN" type="Sprite2D" parent="."]
+texture = ExtResource("157_ysf7e")
+
+[node name="SnowTileSpawnS" type="Sprite2D" parent="."]
+texture = ExtResource("158_a51jp")
+
+[node name="SnowTileSpawnW" type="Sprite2D" parent="."]
+texture = ExtResource("159_v70fw")
+
+[node name="SnowTileSplitE" type="Sprite2D" parent="."]
+texture = ExtResource("160_hjnoq")
+
+[node name="SnowTileSplitN" type="Sprite2D" parent="."]
+texture = ExtResource("161_4xcjw")
+
+[node name="SnowTileSplitS" type="Sprite2D" parent="."]
+texture = ExtResource("162_qelid")
+
+[node name="SnowTileSplitW" type="Sprite2D" parent="."]
+texture = ExtResource("163_s1r1m")
+
+[node name="SnowTileStraightHillLargeE" type="Sprite2D" parent="."]
+texture = ExtResource("164_egtje")
+
+[node name="SnowTileStraightHillLargeN" type="Sprite2D" parent="."]
+texture = ExtResource("165_r67ma")
+
+[node name="SnowTileStraightHillLargeS" type="Sprite2D" parent="."]
+texture = ExtResource("166_hjos6")
+
+[node name="SnowTileStraightHillLargeW" type="Sprite2D" parent="."]
+texture = ExtResource("167_wdcig")
+
+[node name="SnowTileStraightHillE" type="Sprite2D" parent="."]
+texture = ExtResource("168_8jxox")
+
+[node name="SnowTileStraightHillN" type="Sprite2D" parent="."]
+texture = ExtResource("169_ark1d")
+
+[node name="SnowTileStraightHillS" type="Sprite2D" parent="."]
+texture = ExtResource("170_nowau")
+
+[node name="SnowTileStraightHillW" type="Sprite2D" parent="."]
+texture = ExtResource("171_2fr4v")
+
+[node name="SnowTileStraightE" type="Sprite2D" parent="."]
+texture = ExtResource("172_lqbgl")
+
+[node name="SnowTileStraightN" type="Sprite2D" parent="."]
+texture = ExtResource("173_god0g")
+
+[node name="SnowTileStraightS" type="Sprite2D" parent="."]
+texture = ExtResource("174_bnbgw")
+
+[node name="SnowTileStraightW" type="Sprite2D" parent="."]
+texture = ExtResource("175_1l8lx")
+
+[node name="SnowTileTransitionE" type="Sprite2D" parent="."]
+texture = ExtResource("176_64ojo")
+
+[node name="SnowTileTransitionN" type="Sprite2D" parent="."]
+texture = ExtResource("177_27y0h")
+
+[node name="SnowTileTransitionS" type="Sprite2D" parent="."]
+texture = ExtResource("178_q3wqw")
+
+[node name="SnowTileTransitionW" type="Sprite2D" parent="."]
+texture = ExtResource("179_85txi")
+
+[node name="SnowTileTreeDoubleE" type="Sprite2D" parent="."]
+texture = ExtResource("180_6c0nv")
+
+[node name="SnowTileTreeDoubleN" type="Sprite2D" parent="."]
+texture = ExtResource("181_8lq1r")
+
+[node name="SnowTileTreeDoubleS" type="Sprite2D" parent="."]
+texture = ExtResource("182_hbcs1")
+
+[node name="SnowTileTreeDoubleW" type="Sprite2D" parent="."]
+texture = ExtResource("183_vudmu")
+
+[node name="SnowTileTreeQuadE" type="Sprite2D" parent="."]
+texture = ExtResource("184_mwuf6")
+
+[node name="SnowTileTreeQuadN" type="Sprite2D" parent="."]
+texture = ExtResource("185_tgmc7")
+
+[node name="SnowTileTreeQuadS" type="Sprite2D" parent="."]
+texture = ExtResource("186_56h5i")
+
+[node name="SnowTileTreeQuadW" type="Sprite2D" parent="."]
+texture = ExtResource("187_nehoy")
+
+[node name="SnowTileTreeE" type="Sprite2D" parent="."]
+texture = ExtResource("188_kx52l")
+
+[node name="SnowTileTreeN" type="Sprite2D" parent="."]
+texture = ExtResource("189_ocr0v")
+
+[node name="SnowTileTreeS" type="Sprite2D" parent="."]
+texture = ExtResource("190_1eoeu")
+
+[node name="SnowTileTreeW" type="Sprite2D" parent="."]
+texture = ExtResource("191_4wx0m")
+
+[node name="SnowTileW" type="Sprite2D" parent="."]
+texture = ExtResource("192_fctll")
+
+[node name="SnowTileWideCornerE" type="Sprite2D" parent="."]
+texture = ExtResource("193_n7js1")
+
+[node name="SnowTileWideCornerN" type="Sprite2D" parent="."]
+texture = ExtResource("194_6n4wq")
+
+[node name="SnowTileWideCornerS" type="Sprite2D" parent="."]
+texture = ExtResource("195_ldhqr")
+
+[node name="SnowTileWideCornerW" type="Sprite2D" parent="."]
+texture = ExtResource("196_6a0ft")
+
+[node name="SnowTileWideSplitE" type="Sprite2D" parent="."]
+texture = ExtResource("197_06oio")
+
+[node name="SnowTileWideSplitN" type="Sprite2D" parent="."]
+texture = ExtResource("198_fg5i5")
+
+[node name="SnowTileWideSplitS" type="Sprite2D" parent="."]
+texture = ExtResource("199_vpm8d")
+
+[node name="SnowTileWideSplitW" type="Sprite2D" parent="."]
+texture = ExtResource("200_05pqd")
+
+[node name="SnowTileWideStraightE" type="Sprite2D" parent="."]
+texture = ExtResource("201_3crwc")
+
+[node name="SnowTileWideStraightN" type="Sprite2D" parent="."]
+texture = ExtResource("202_nsv4f")
+
+[node name="SnowTileWideStraightS" type="Sprite2D" parent="."]
+texture = ExtResource("203_vciyh")
+
+[node name="SnowTileWideStraightW" type="Sprite2D" parent="."]
+texture = ExtResource("204_ibo7h")
+
+[node name="SnowTileWideTransitionE" type="Sprite2D" parent="."]
+texture = ExtResource("205_em266")
+
+[node name="SnowTileWideTransitionN" type="Sprite2D" parent="."]
+texture = ExtResource("206_ccr2a")
+
+[node name="SnowTileWideTransitionS" type="Sprite2D" parent="."]
+texture = ExtResource("207_yrp6t")
+
+[node name="SnowTileWideTransitionW" type="Sprite2D" parent="."]
+texture = ExtResource("208_67sig")
+
+[node name="SnowWoodStructureE" type="Sprite2D" parent="."]
+texture = ExtResource("209_7k7l2")
+
+[node name="SnowWoodStructureHighE" type="Sprite2D" parent="."]
+texture = ExtResource("210_47jrj")
+
+[node name="SnowWoodStructureHighN" type="Sprite2D" parent="."]
+texture = ExtResource("211_ypm44")
+
+[node name="SnowWoodStructureHighS" type="Sprite2D" parent="."]
+texture = ExtResource("212_g1imx")
+
+[node name="SnowWoodStructureHighW" type="Sprite2D" parent="."]
+texture = ExtResource("213_8aswj")
+
+[node name="SnowWoodStructureN" type="Sprite2D" parent="."]
+texture = ExtResource("214_yi2gt")
+
+[node name="SnowWoodStructureS" type="Sprite2D" parent="."]
+texture = ExtResource("215_2ydoj")
+
+[node name="SnowWoodStructureW" type="Sprite2D" parent="."]
+texture = ExtResource("216_crm2w")
+
+[node name="TileBumpE" type="Sprite2D" parent="."]
+texture = ExtResource("217_o7il5")
+
+[node name="TileBumpN" type="Sprite2D" parent="."]
+texture = ExtResource("218_et27l")
+
+[node name="TileBumpS" type="Sprite2D" parent="."]
+texture = ExtResource("219_73loy")
+
+[node name="TileBumpW" type="Sprite2D" parent="."]
+texture = ExtResource("220_w0m27")
+
+[node name="TileCornerInnerE" type="Sprite2D" parent="."]
+texture = ExtResource("221_rmuq0")
+
+[node name="TileCornerInnerN" type="Sprite2D" parent="."]
+texture = ExtResource("222_jdcdh")
+
+[node name="TileCornerInnerS" type="Sprite2D" parent="."]
+texture = ExtResource("223_qbkxt")
+
+[node name="TileCornerInnerW" type="Sprite2D" parent="."]
+texture = ExtResource("224_2g2an")
+
+[node name="TileCornerLargeE" type="Sprite2D" parent="."]
+texture = ExtResource("225_oqqok")
+
+[node name="TileCornerLargeN" type="Sprite2D" parent="."]
+texture = ExtResource("226_epna2")
+
+[node name="TileCornerLargeS" type="Sprite2D" parent="."]
+texture = ExtResource("227_jfunj")
+
+[node name="TileCornerLargeW" type="Sprite2D" parent="."]
+texture = ExtResource("228_n542c")
+
+[node name="TileCornerOuterE" type="Sprite2D" parent="."]
+texture = ExtResource("229_18lub")
+
+[node name="TileCornerOuterN" type="Sprite2D" parent="."]
+texture = ExtResource("230_ilkh4")
+
+[node name="TileCornerOuterS" type="Sprite2D" parent="."]
+texture = ExtResource("231_nnnwg")
+
+[node name="TileCornerOuterW" type="Sprite2D" parent="."]
+texture = ExtResource("232_wac2f")
+
+[node name="TileCornerRoundE" type="Sprite2D" parent="."]
+texture = ExtResource("233_g5xsy")
+
+[node name="TileCornerRoundN" type="Sprite2D" parent="."]
+texture = ExtResource("234_bpkur")
+
+[node name="TileCornerRoundS" type="Sprite2D" parent="."]
+texture = ExtResource("235_pqm8a")
+
+[node name="TileCornerRoundW" type="Sprite2D" parent="."]
+texture = ExtResource("236_hlxt6")
+
+[node name="TileCornerSquareE" type="Sprite2D" parent="."]
+texture = ExtResource("237_xml6e")
+
+[node name="TileCornerSquareN" type="Sprite2D" parent="."]
+texture = ExtResource("238_5lolj")
+
+[node name="TileCornerSquareS" type="Sprite2D" parent="."]
+texture = ExtResource("239_wc5c2")
+
+[node name="TileCornerSquareW" type="Sprite2D" parent="."]
+texture = ExtResource("240_54mmu")
+
+[node name="TileCrossingE" type="Sprite2D" parent="."]
+texture = ExtResource("241_jb4il")
+
+[node name="TileCrossingN" type="Sprite2D" parent="."]
+texture = ExtResource("242_d6au4")
+
+[node name="TileCrossingS" type="Sprite2D" parent="."]
+texture = ExtResource("243_uxjph")
+
+[node name="TileCrossingW" type="Sprite2D" parent="."]
+texture = ExtResource("244_1xtw6")
+
+[node name="TileCrystalE" type="Sprite2D" parent="."]
+texture = ExtResource("245_1vevv")
+
+[node name="TileCrystalN" type="Sprite2D" parent="."]
+texture = ExtResource("246_uyg1h")
+
+[node name="TileCrystalS" type="Sprite2D" parent="."]
+texture = ExtResource("247_i772i")
+
+[node name="TileCrystalW" type="Sprite2D" parent="."]
+texture = ExtResource("248_tfdod")
+
+[node name="TileDirtHighE" type="Sprite2D" parent="."]
+texture = ExtResource("249_017iy")
+
+[node name="TileDirtHighN" type="Sprite2D" parent="."]
+texture = ExtResource("250_hvrmj")
+
+[node name="TileDirtHighS" type="Sprite2D" parent="."]
+texture = ExtResource("251_8rutm")
+
+[node name="TileDirtHighW" type="Sprite2D" parent="."]
+texture = ExtResource("252_2ccya")
+
+[node name="TileDirtE" type="Sprite2D" parent="."]
+texture = ExtResource("253_l5vau")
+
+[node name="TileDirtN" type="Sprite2D" parent="."]
+texture = ExtResource("254_hp3y3")
+
+[node name="TileDirtS" type="Sprite2D" parent="."]
+texture = ExtResource("255_nm06h")
+
+[node name="TileDirtW" type="Sprite2D" parent="."]
+texture = ExtResource("256_fpiig")
+
+[node name="TileE" type="Sprite2D" parent="."]
+texture = ExtResource("257_hcbmj")
+
+[node name="TileEndRoundSpawnE" type="Sprite2D" parent="."]
+texture = ExtResource("258_28nya")
+
+[node name="TileEndRoundSpawnN" type="Sprite2D" parent="."]
+texture = ExtResource("259_1f8av")
+
+[node name="TileEndRoundSpawnS" type="Sprite2D" parent="."]
+texture = ExtResource("260_gg1jv")
+
+[node name="TileEndRoundSpawnW" type="Sprite2D" parent="."]
+texture = ExtResource("261_fob0x")
+
+[node name="TileEndRoundE" type="Sprite2D" parent="."]
+texture = ExtResource("262_474t0")
+
+[node name="TileEndRoundN" type="Sprite2D" parent="."]
+texture = ExtResource("263_2acjs")
+
+[node name="TileEndRoundS" type="Sprite2D" parent="."]
+texture = ExtResource("264_txsco")
+
+[node name="TileEndRoundW" type="Sprite2D" parent="."]
+texture = ExtResource("265_gitnb")
+
+[node name="TileEndSpawnE" type="Sprite2D" parent="."]
+texture = ExtResource("266_abpaf")
+
+[node name="TileEndSpawnN" type="Sprite2D" parent="."]
+texture = ExtResource("267_gku2f")
+
+[node name="TileEndSpawnS" type="Sprite2D" parent="."]
+texture = ExtResource("268_10k1s")
+
+[node name="TileEndSpawnW" type="Sprite2D" parent="."]
+texture = ExtResource("269_xr52o")
+
+[node name="TileEndE" type="Sprite2D" parent="."]
+texture = ExtResource("270_twunc")
+
+[node name="TileEndN" type="Sprite2D" parent="."]
+texture = ExtResource("271_b2mke")
+
+[node name="TileEndS" type="Sprite2D" parent="."]
+texture = ExtResource("272_vwvpj")
+
+[node name="TileEndW" type="Sprite2D" parent="."]
+texture = ExtResource("273_vu8pj")
+
+[node name="TileHillE" type="Sprite2D" parent="."]
+texture = ExtResource("274_60dft")
+
+[node name="TileHillN" type="Sprite2D" parent="."]
+texture = ExtResource("275_1s4ya")
+
+[node name="TileHillS" type="Sprite2D" parent="."]
+texture = ExtResource("276_3q7hx")
+
+[node name="TileHillW" type="Sprite2D" parent="."]
+texture = ExtResource("277_cds5u")
+
+[node name="TileN" type="Sprite2D" parent="."]
+texture = ExtResource("278_whx35")
+
+[node name="TileRiverBridgeE" type="Sprite2D" parent="."]
+texture = ExtResource("279_6u68p")
+
+[node name="TileRiverBridgeN" type="Sprite2D" parent="."]
+texture = ExtResource("280_3ehw8")
+
+[node name="TileRiverBridgeS" type="Sprite2D" parent="."]
+texture = ExtResource("281_jho8q")
+
+[node name="TileRiverBridgeW" type="Sprite2D" parent="."]
+texture = ExtResource("282_mnstm")
+
+[node name="TileRiverCornerE" type="Sprite2D" parent="."]
+texture = ExtResource("283_am6hh")
+
+[node name="TileRiverCornerN" type="Sprite2D" parent="."]
+texture = ExtResource("284_0ipk7")
+
+[node name="TileRiverCornerS" type="Sprite2D" parent="."]
+texture = ExtResource("285_5f7dt")
+
+[node name="TileRiverCornerW" type="Sprite2D" parent="."]
+texture = ExtResource("286_rnbof")
+
+[node name="TileRiverFallE" type="Sprite2D" parent="."]
+texture = ExtResource("287_0pc52")
+
+[node name="TileRiverFallN" type="Sprite2D" parent="."]
+texture = ExtResource("288_f3nmt")
+
+[node name="TileRiverFallS" type="Sprite2D" parent="."]
+texture = ExtResource("289_ibb5o")
+
+[node name="TileRiverFallW" type="Sprite2D" parent="."]
+texture = ExtResource("290_mp03i")
+
+[node name="TileRiverSlopeLargeE" type="Sprite2D" parent="."]
+texture = ExtResource("291_ie2r4")
+
+[node name="TileRiverSlopeLargeN" type="Sprite2D" parent="."]
+texture = ExtResource("292_h6xu7")
+
+[node name="TileRiverSlopeLargeS" type="Sprite2D" parent="."]
+texture = ExtResource("293_wnmdh")
+
+[node name="TileRiverSlopeLargeW" type="Sprite2D" parent="."]
+texture = ExtResource("294_j0pie")
+
+[node name="TileRiverSlopeE" type="Sprite2D" parent="."]
+texture = ExtResource("295_hcs1o")
+
+[node name="TileRiverSlopeN" type="Sprite2D" parent="."]
+texture = ExtResource("296_ecu6k")
+
+[node name="TileRiverSlopeS" type="Sprite2D" parent="."]
+texture = ExtResource("297_5orgv")
+
+[node name="TileRiverSlopeW" type="Sprite2D" parent="."]
+texture = ExtResource("298_qbw27")
+
+[node name="TileRiverStraightE" type="Sprite2D" parent="."]
+texture = ExtResource("299_l5eeb")
+
+[node name="TileRiverStraightN" type="Sprite2D" parent="."]
+texture = ExtResource("300_v12er")
+
+[node name="TileRiverStraightS" type="Sprite2D" parent="."]
+texture = ExtResource("301_ckyvf")
+
+[node name="TileRiverStraightW" type="Sprite2D" parent="."]
+texture = ExtResource("302_ntxp6")
+
+[node name="TileRiverTransitionE" type="Sprite2D" parent="."]
+texture = ExtResource("303_8qkvi")
+
+[node name="TileRiverTransitionN" type="Sprite2D" parent="."]
+texture = ExtResource("304_60g4e")
+
+[node name="TileRiverTransitionS" type="Sprite2D" parent="."]
+texture = ExtResource("305_j5xb0")
+
+[node name="TileRiverTransitionW" type="Sprite2D" parent="."]
+texture = ExtResource("306_e4x8k")
+
+[node name="TileRockE" type="Sprite2D" parent="."]
+texture = ExtResource("307_ffhjh")
+
+[node name="TileRockN" type="Sprite2D" parent="."]
+texture = ExtResource("308_bwl34")
+
+[node name="TileRockS" type="Sprite2D" parent="."]
+texture = ExtResource("309_cxi1o")
+
+[node name="TileRockW" type="Sprite2D" parent="."]
+texture = ExtResource("310_imsqe")
+
+[node name="TileS" type="Sprite2D" parent="."]
+texture = ExtResource("311_f25hd")
+
+[node name="TileSlopeE" type="Sprite2D" parent="."]
+texture = ExtResource("312_2wvvj")
+
+[node name="TileSlopeN" type="Sprite2D" parent="."]
+texture = ExtResource("313_x6cgk")
+
+[node name="TileSlopeS" type="Sprite2D" parent="."]
+texture = ExtResource("314_olasc")
+
+[node name="TileSlopeW" type="Sprite2D" parent="."]
+texture = ExtResource("315_bqgk2")
+
+[node name="TileSpawnRoundE" type="Sprite2D" parent="."]
+texture = ExtResource("316_72l1l")
+
+[node name="TileSpawnRoundN" type="Sprite2D" parent="."]
+texture = ExtResource("317_rw2sf")
+
+[node name="TileSpawnRoundS" type="Sprite2D" parent="."]
+texture = ExtResource("318_wwgm5")
+
+[node name="TileSpawnRoundW" type="Sprite2D" parent="."]
+texture = ExtResource("319_rfmxv")
+
+[node name="TileSpawnE" type="Sprite2D" parent="."]
+texture = ExtResource("320_65xxi")
+
+[node name="TileSpawnN" type="Sprite2D" parent="."]
+texture = ExtResource("321_vowmv")
+
+[node name="TileSpawnS" type="Sprite2D" parent="."]
+texture = ExtResource("322_e3hi0")
+
+[node name="TileSpawnW" type="Sprite2D" parent="."]
+texture = ExtResource("323_e64io")
+
+[node name="TileSplitE" type="Sprite2D" parent="."]
+texture = ExtResource("324_5ywnq")
+
+[node name="TileSplitN" type="Sprite2D" parent="."]
+texture = ExtResource("325_obsyi")
+
+[node name="TileSplitS" type="Sprite2D" parent="."]
+texture = ExtResource("326_3gbhe")
+
+[node name="TileSplitW" type="Sprite2D" parent="."]
+texture = ExtResource("327_y2ggb")
+
+[node name="TileStraightHillLargeE" type="Sprite2D" parent="."]
+texture = ExtResource("328_d5v2p")
+
+[node name="TileStraightHillLargeN" type="Sprite2D" parent="."]
+texture = ExtResource("329_fq6fh")
+
+[node name="TileStraightHillLargeS" type="Sprite2D" parent="."]
+texture = ExtResource("330_4664c")
+
+[node name="TileStraightHillLargeW" type="Sprite2D" parent="."]
+texture = ExtResource("331_bknl2")
+
+[node name="TileStraightHillE" type="Sprite2D" parent="."]
+texture = ExtResource("332_vo1wp")
+
+[node name="TileStraightHillN" type="Sprite2D" parent="."]
+texture = ExtResource("333_c5y2x")
+
+[node name="TileStraightHillS" type="Sprite2D" parent="."]
+texture = ExtResource("334_ftug3")
+
+[node name="TileStraightHillW" type="Sprite2D" parent="."]
+texture = ExtResource("335_6h2y3")
+
+[node name="TileStraightE" type="Sprite2D" parent="."]
+texture = ExtResource("336_b0i3m")
+
+[node name="TileStraightN" type="Sprite2D" parent="."]
+texture = ExtResource("337_et2vx")
+
+[node name="TileStraightS" type="Sprite2D" parent="."]
+texture = ExtResource("338_bfbva")
+
+[node name="TileStraightW" type="Sprite2D" parent="."]
+texture = ExtResource("339_8dv47")
+
+[node name="TileTransitionE" type="Sprite2D" parent="."]
+texture = ExtResource("340_idfvq")
+
+[node name="TileTransitionN" type="Sprite2D" parent="."]
+texture = ExtResource("341_5hijh")
+
+[node name="TileTransitionS" type="Sprite2D" parent="."]
+texture = ExtResource("342_v5a2u")
+
+[node name="TileTransitionW" type="Sprite2D" parent="."]
+texture = ExtResource("343_4308d")
+
+[node name="TileTreeDoubleE" type="Sprite2D" parent="."]
+texture = ExtResource("344_b15bu")
+
+[node name="TileTreeDoubleN" type="Sprite2D" parent="."]
+texture = ExtResource("345_m4luc")
+
+[node name="TileTreeDoubleS" type="Sprite2D" parent="."]
+texture = ExtResource("346_sewt7")
+
+[node name="TileTreeDoubleW" type="Sprite2D" parent="."]
+texture = ExtResource("347_54au7")
+
+[node name="TileTreeQuadE" type="Sprite2D" parent="."]
+texture = ExtResource("348_tev56")
+
+[node name="TileTreeQuadN" type="Sprite2D" parent="."]
+texture = ExtResource("349_fykru")
+
+[node name="TileTreeQuadS" type="Sprite2D" parent="."]
+texture = ExtResource("350_0jkib")
+
+[node name="TileTreeQuadW" type="Sprite2D" parent="."]
+texture = ExtResource("351_f1pxm")
+
+[node name="TileTreeE" type="Sprite2D" parent="."]
+texture = ExtResource("352_qtueo")
+
+[node name="TileTreeN" type="Sprite2D" parent="."]
+texture = ExtResource("353_o7pqp")
+
+[node name="TileTreeS" type="Sprite2D" parent="."]
+texture = ExtResource("354_4omx5")
+
+[node name="TileTreeW" type="Sprite2D" parent="."]
+texture = ExtResource("355_3h1u2")
+
+[node name="TileW" type="Sprite2D" parent="."]
+texture = ExtResource("356_fqtli")
+
+[node name="TileWideCornerE" type="Sprite2D" parent="."]
+texture = ExtResource("357_o5tll")
+
+[node name="TileWideCornerN" type="Sprite2D" parent="."]
+texture = ExtResource("358_fyr8g")
+
+[node name="TileWideCornerS" type="Sprite2D" parent="."]
+texture = ExtResource("359_fkgg5")
+
+[node name="TileWideCornerW" type="Sprite2D" parent="."]
+texture = ExtResource("360_rg0eu")
+
+[node name="TileWideSplitE" type="Sprite2D" parent="."]
+texture = ExtResource("361_a4ile")
+
+[node name="TileWideSplitN" type="Sprite2D" parent="."]
+texture = ExtResource("362_vnpc1")
+
+[node name="TileWideSplitS" type="Sprite2D" parent="."]
+texture = ExtResource("363_juc0o")
+
+[node name="TileWideSplitW" type="Sprite2D" parent="."]
+texture = ExtResource("364_68hc4")
+
+[node name="TileWideStraightE" type="Sprite2D" parent="."]
+texture = ExtResource("365_bwkat")
+
+[node name="TileWideStraightN" type="Sprite2D" parent="."]
+texture = ExtResource("366_k1ne0")
+
+[node name="TileWideStraightS" type="Sprite2D" parent="."]
+texture = ExtResource("367_1020s")
+
+[node name="TileWideStraightW" type="Sprite2D" parent="."]
+texture = ExtResource("368_3dx8c")
+
+[node name="TileWideTransitionE" type="Sprite2D" parent="."]
+texture = ExtResource("369_jtqdh")
+
+[node name="TileWideTransitionN" type="Sprite2D" parent="."]
+texture = ExtResource("370_yb1ch")
+
+[node name="TileWideTransitionS" type="Sprite2D" parent="."]
+texture = ExtResource("371_xmwho")
+
+[node name="TileWideTransitionW" type="Sprite2D" parent="."]
+texture = ExtResource("372_ebqi6")
+
+[node name="WoodStructureE" type="Sprite2D" parent="."]
+texture = ExtResource("373_6b6nd")
+
+[node name="WoodStructureHighE" type="Sprite2D" parent="."]
+texture = ExtResource("374_mfsbu")
+
+[node name="WoodStructureHighN" type="Sprite2D" parent="."]
+texture = ExtResource("375_0u6t8")
+
+[node name="WoodStructureHighS" type="Sprite2D" parent="."]
+texture = ExtResource("376_ld1ai")
+
+[node name="WoodStructureHighW" type="Sprite2D" parent="."]
+texture = ExtResource("377_xo782")
+
+[node name="WoodStructureN" type="Sprite2D" parent="."]
+texture = ExtResource("378_23dsd")
+
+[node name="WoodStructureS" type="Sprite2D" parent="."]
+texture = ExtResource("379_244h4")
+
+[node name="WoodStructureW" type="Sprite2D" parent="."]
+texture = ExtResource("380_qdj2b")

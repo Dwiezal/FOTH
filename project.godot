@@ -98,6 +98,10 @@ project/assembly_name="Getting started with Godot 4"
 
 enabled=PackedStringArray("res://addons/colorpicker_presets/plugin.cfg")
 
+[filesystem]
+
+import/fbx/enabled=false
+
 [input]
 
 move_left={
@@ -137,4 +141,4 @@ move_down={
 
 [rendering]
 
-renderer/rendering_method="gl_compatibility"
+renderer/rendering_method="mobile"

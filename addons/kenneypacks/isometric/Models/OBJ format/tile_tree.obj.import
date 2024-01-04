@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://noxt2rpdnh15"
+path="res://.godot/imported/tile_tree.obj-22637efec3e850e5217cecfefdac30e6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tile_tree.obj-22637efec3e850e5217cecfefdac30e6.mesh"]
+
+source_file="res://addons/kenneypacks/isometric/Models/OBJ format/tile_tree.obj"
+dest_files=["res://.godot/imported/tile_tree.obj-22637efec3e850e5217cecfefdac30e6.mesh", "res://.godot/imported/tile_tree.obj-22637efec3e850e5217cecfefdac30e6.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -48,27 +48,28 @@ func _on_flock_view_body_exited(body):
 		_flock.remove_at(_flock.find(body)) #removed bodies from flock when far
 
 func _physics_process(delta):
-	if Engine.get_physics_frames() % 2 == 0:
+	if Engine.get_physics_frames() % 4 == 0:
 		var target_vector = Vector2.ZERO
-	_target = player.global_position
-	if _target != Vector2.INF:
-		target_vector = global_position.direction_to(
-							_target) * max_speed * target_force
+		_target = player.global_position
+		if _target != Vector2.INF:
+			target_vector = global_position.direction_to(
+								_target) * max_speed * target_force
 
-	# get cohesion, alignment, and separation vectors
-	var vectors = get_flock_status(_flock)
+		# get cohesion, alignment, and separation vectors
+		var vectors = get_flock_status(_flock)
 
-	# steer towards vectors
-	var cohesion_vector = vectors[0] * cohesion_force
-	var align_vector = vectors[1] * align_force
-	var separation_vector = vectors[2] * separation_force
+		# steer towards vectors
+		var cohesion_vector = vectors[0] * cohesion_force
+		var align_vector = vectors[1] * align_force
+		var separation_vector = vectors[2] * separation_force
 
-	var acceleration = (cohesion_vector + align_vector + 
-						separation_vector + target_vector)
+		var acceleration = (cohesion_vector + align_vector + 
+							separation_vector + target_vector)
 
-	_velocity = (_velocity + acceleration).limit_length(max_speed)
+		_velocity = (_velocity + acceleration).limit_length(max_speed)
 
-	set_velocity(_velocity)
+		set_velocity(_velocity)
+		
 	move_and_slide()
 	_velocity = velocity
 

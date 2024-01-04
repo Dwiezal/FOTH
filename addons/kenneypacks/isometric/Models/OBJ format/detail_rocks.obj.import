@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dvtug0j1m6plr"
+path="res://.godot/imported/detail_rocks.obj-cbaf628a15186b41ef87f1df4ff1cb2f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/detail_rocks.obj-cbaf628a15186b41ef87f1df4ff1cb2f.mesh"]
+
+source_file="res://addons/kenneypacks/isometric/Models/OBJ format/detail_rocks.obj"
+dest_files=["res://.godot/imported/detail_rocks.obj-cbaf628a15186b41ef87f1df4ff1cb2f.mesh", "res://.godot/imported/detail_rocks.obj-cbaf628a15186b41ef87f1df4ff1cb2f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

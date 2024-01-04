@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://gjg8p8qqhiai"
+path="res://.godot/imported/tile_riverCorner.obj-e8969e8e9e9fc4e50a4217c01cf3d7fd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tile_riverCorner.obj-e8969e8e9e9fc4e50a4217c01cf3d7fd.mesh"]
+
+source_file="res://addons/kenneypacks/isometric/Models/OBJ format/tile_riverCorner.obj"
+dest_files=["res://.godot/imported/tile_riverCorner.obj-e8969e8e9e9fc4e50a4217c01cf3d7fd.mesh", "res://.godot/imported/tile_riverCorner.obj-e8969e8e9e9fc4e50a4217c01cf3d7fd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

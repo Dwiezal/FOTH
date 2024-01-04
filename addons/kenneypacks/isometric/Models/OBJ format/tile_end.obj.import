@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cudpf3gilqqw8"
+path="res://.godot/imported/tile_end.obj-69b3df2a3986ebad7fd2eb4b6b4f6f52.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tile_end.obj-69b3df2a3986ebad7fd2eb4b6b4f6f52.mesh"]
+
+source_file="res://addons/kenneypacks/isometric/Models/OBJ format/tile_end.obj"
+dest_files=["res://.godot/imported/tile_end.obj-69b3df2a3986ebad7fd2eb4b6b4f6f52.mesh", "res://.godot/imported/tile_end.obj-69b3df2a3986ebad7fd2eb4b6b4f6f52.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

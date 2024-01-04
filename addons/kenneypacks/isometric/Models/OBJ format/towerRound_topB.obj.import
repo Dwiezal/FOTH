@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://o8u17a80hr0v"
+path="res://.godot/imported/towerRound_topB.obj-3316a5233936bde24b58a01874faf110.mesh"
+
+[deps]
+
+files=["res://.godot/imported/towerRound_topB.obj-3316a5233936bde24b58a01874faf110.mesh"]
+
+source_file="res://addons/kenneypacks/isometric/Models/OBJ format/towerRound_topB.obj"
+dest_files=["res://.godot/imported/towerRound_topB.obj-3316a5233936bde24b58a01874faf110.mesh", "res://.godot/imported/towerRound_topB.obj-3316a5233936bde24b58a01874faf110.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

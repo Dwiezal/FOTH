@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c4tompbh3uo7c"
+path="res://.godot/imported/tile_slope.obj-eb15086427f89305961cd0f57dd8f310.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tile_slope.obj-eb15086427f89305961cd0f57dd8f310.mesh"]
+
+source_file="res://addons/kenneypacks/isometric/Models/OBJ format/tile_slope.obj"
+dest_files=["res://.godot/imported/tile_slope.obj-eb15086427f89305961cd0f57dd8f310.mesh", "res://.godot/imported/tile_slope.obj-eb15086427f89305961cd0f57dd8f310.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

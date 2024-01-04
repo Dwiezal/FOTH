@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b0ukh7k1201h7"
+path="res://.godot/imported/towerRound_middleA.obj-058e6b0437fd0c224a6871bdb7aae8e1.mesh"
+
+[deps]
+
+files=["res://.godot/imported/towerRound_middleA.obj-058e6b0437fd0c224a6871bdb7aae8e1.mesh"]
+
+source_file="res://addons/kenneypacks/isometric/Models/OBJ format/towerRound_middleA.obj"
+dest_files=["res://.godot/imported/towerRound_middleA.obj-058e6b0437fd0c224a6871bdb7aae8e1.mesh", "res://.godot/imported/towerRound_middleA.obj-058e6b0437fd0c224a6871bdb7aae8e1.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

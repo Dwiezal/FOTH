@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://xksa5xqlu0rd"
+path="res://.godot/imported/tile_endRound.obj-2509bfa5a0b1e6ee1fd2ae9fb8e5872a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tile_endRound.obj-2509bfa5a0b1e6ee1fd2ae9fb8e5872a.mesh"]
+
+source_file="res://addons/kenneypacks/isometric/Models/OBJ format/tile_endRound.obj"
+dest_files=["res://.godot/imported/tile_endRound.obj-2509bfa5a0b1e6ee1fd2ae9fb8e5872a.mesh", "res://.godot/imported/tile_endRound.obj-2509bfa5a0b1e6ee1fd2ae9fb8e5872a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

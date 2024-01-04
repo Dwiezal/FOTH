@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dak0vhang532s"
+path="res://.godot/imported/towerSquare_sampleE.obj-49ba82174e23eeae1014962d1e0658dc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/towerSquare_sampleE.obj-49ba82174e23eeae1014962d1e0658dc.mesh"]
+
+source_file="res://addons/kenneypacks/isometric/Models/OBJ format/towerSquare_sampleE.obj"
+dest_files=["res://.godot/imported/towerSquare_sampleE.obj-49ba82174e23eeae1014962d1e0658dc.mesh", "res://.godot/imported/towerSquare_sampleE.obj-49ba82174e23eeae1014962d1e0658dc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
