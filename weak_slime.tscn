@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://hv04wpkipgtr"]
 
-[ext_resource type="Script" path="res://scripts/mob.gd" id="1_178th"]
+[ext_resource type="Script" path="res://scripts/blogu.gd" id="1_bdlfb"]
 [ext_resource type="PackedScene" uid="uid://ogik4s70pgwl" path="res://characters/slime/slime.tscn" id="2_co841"]
 [ext_resource type="PackedScene" uid="uid://dxcfotaju0lnv" path="res://hurt_box.tscn" id="3_588f4"]
 [ext_resource type="PackedScene" uid="uid://bvg4ev44bsgq1" path="res://hit_box.tscn" id="4_lwon1"]
@@ -21,7 +21,7 @@ collision_layer = 4
 collision_mask = 4
 collision_priority = 10.0
 platform_floor_layers = 4294967040
-script = ExtResource("1_178th")
+script = ExtResource("1_bdlfb")
 separation_force = 0.1
 avoid_distance = 100.0
 

@@ -1,0 +1,149 @@
+[gd_scene load_steps=25 format=3 uid="uid://kpj2105r72sk"]
+
+[ext_resource type="Texture2D" uid="uid://cad54by2dq2pt" path="res://characters/potion_battler/Potion_Battler-1.png" id="1_ptgl1"]
+[ext_resource type="Texture2D" uid="uid://bvtvwhktl4yqv" path="res://characters/potion_battler/Potion_Battler-2.png" id="2_p2m88"]
+[ext_resource type="Texture2D" uid="uid://c41lyetbbf7m7" path="res://characters/potion_battler/Potion_Battler-3.png" id="3_sqy3y"]
+[ext_resource type="Texture2D" uid="uid://cysaflr7a7no3" path="res://characters/potion_battler/Potion_Battler_L-1 2.png" id="4_0kamh"]
+[ext_resource type="Texture2D" uid="uid://b24v6t780r6gm" path="res://characters/potion_battler/Potion_Battler_Walk-1.png" id="4_5gnfj"]
+[ext_resource type="Texture2D" uid="uid://qo0truptyo88" path="res://characters/potion_battler/light_mask_potion_battle-1.png" id="4_vrm60"]
+[ext_resource type="Texture2D" uid="uid://3hpahpjbow26" path="res://characters/potion_battler/light_mask_potion_battle-2.png" id="5_35rjv"]
+[ext_resource type="Texture2D" uid="uid://b4go2iuoglgql" path="res://characters/potion_battler/Potion_Battler_Walk-2.png" id="5_tnw27"]
+[ext_resource type="Texture2D" uid="uid://csudtkesyl164" path="res://characters/potion_battler/Potion_Battler_L-2 2.png" id="5_whwqc"]
+[ext_resource type="Script" path="res://potion_battler.gd" id="6_51xp2"]
+[ext_resource type="Texture2D" uid="uid://dwm2tykc0grrv" path="res://characters/potion_battler/Potion_Battler_L-3 2.png" id="6_h1w6u"]
+[ext_resource type="Texture2D" uid="uid://dv8yq37lmahtj" path="res://characters/potion_battler/light_mask_potion_battle-3.png" id="6_s4qqh"]
+[ext_resource type="Texture2D" uid="uid://dr6kvpgocbr5l" path="res://characters/potion_battler/Potion_Battler_Walk-1 2.png" id="9_couy1"]
+[ext_resource type="Texture2D" uid="uid://6fjbgxffdurc" path="res://characters/potion_battler/Potion_Battler_Walk-1 L.png" id="9_k3bal"]
+[ext_resource type="Texture2D" uid="uid://byw8aowwjbx2n" path="res://characters/potion_battler/Potion_Battler_Walk-2 L.png" id="10_4p3q4"]
+[ext_resource type="Texture2D" uid="uid://c4wsiy8b54spc" path="res://characters/potion_battler/Potion_Battler_Walk-2 2.png" id="10_x3ku3"]
+[ext_resource type="Texture2D" uid="uid://bubshpi204771" path="res://characters/potion_battler/light_mask_idle_L_1.png" id="15_5xkgi"]
+[ext_resource type="Texture2D" uid="uid://llcq38jynfik" path="res://characters/potion_battler/light_mask_idle_L_2.png" id="16_yobw5"]
+[ext_resource type="Texture2D" uid="uid://dyqx3b3bxto6w" path="res://characters/potion_battler/light_mask_idle_L_3.png" id="17_yteeq"]
+[ext_resource type="Texture2D" uid="uid://bwjoupw7crh6j" path="res://characters/potion_battler/Potion_Battler_Walk-L 1.png" id="20_jst05"]
+[ext_resource type="Texture2D" uid="uid://bmf7vb7cl7xh3" path="res://characters/potion_battler/Potion_Battler_Walk-L 2.png" id="21_lx84y"]
+[ext_resource type="Texture2D" uid="uid://cwcxyjwoukot" path="res://characters/slime/potion_battler_shadow.png" id="22_iyafy"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vafr3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ptgl1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_p2m88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_sqy3y")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_0kamh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_whwqc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_h1w6u")
+}],
+"loop": true,
+"name": &"idle_L",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_5gnfj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_tnw27")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_k3bal")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_4p3q4")
+}],
+"loop": true,
+"name": &"walk_L",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0f0yd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_s4qqh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_vrm60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_35rjv")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_yteeq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_5xkgi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_yobw5")
+}],
+"loop": true,
+"name": &"idle_L",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_x3ku3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_couy1")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("21_lx84y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_jst05")
+}],
+"loop": true,
+"name": &"walk_L",
+"speed": 5.0
+}]
+
+[node name="PotionBattler" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_vafr3")
+animation = &"idle"
+script = ExtResource("6_51xp2")
+
+[node name="SloshySloshing" type="AnimatedSprite2D" parent="."]
+unique_name_in_owner = true
+modulate = Color(0.831373, 0.529412, 0.690196, 1)
+show_behind_parent = true
+sprite_frames = SubResource("SpriteFrames_0f0yd")
+animation = &"walk"
+
+[node name="GroundShadow" type="Sprite2D" parent="."]
+modulate = Color(0.134062, 0.349557, 0.349592, 0.768627)
+show_behind_parent = true
+position = Vector2(-10, 521)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("22_iyafy")

@@ -5,7 +5,7 @@ extends Area2D
 @export var range = 1200.0
 @export var dmg = 1
 @export var distance_traversed = 0
-@export var hp = 1
+@export var hp = 10
 
 func _physics_process(delta):
 	var direction = Vector2.RIGHT.rotated(rotation)

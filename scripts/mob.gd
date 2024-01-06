@@ -11,12 +11,12 @@ extends CharacterBody2D
 @export var cohesion_force: = 0.05
 @export var align_force: = 0.05
 @export var separation_force: = 0.05
-@export var view_distance: = 50.0
+@export var view_distance: = 200.0
 @export var avoid_distance: = 20.0
 
 # onreadys
 @onready var player = get_node("/root/Game/Player")
-@onready var listener = "res://survivors_game.tscn"#reference to your listener here 
+@onready var listener = "res://survivors_game.tscn" #reference to your listener here 
 
 # other other
 var _width = ProjectSettings.get_setting("display/window/size/viewport_width")
@@ -31,7 +31,7 @@ signal died
 
 func _ready():
 	# apply_scale(Vector2(size, size))
-	%Slime.play_walk()
+	%BloguAnimation.play_walk()
 	_velocity = Vector2(randf_range(-1, 1), randf_range(-1, 1)
 						).normalized() * max_speed
 	_target = player.global_position
@@ -126,7 +126,7 @@ func take_damage():
 
 func _on_hurt_box_hurt(damage):
 	hp -= damage
-	%Slime.play_hurt()
+	%BloguAnimation.play_hurt()
 	print(hp)
 	if hp <= 0:
 		const SMOKE_SCENE = preload("res://smoke_explosion/smoke_explosion.tscn")

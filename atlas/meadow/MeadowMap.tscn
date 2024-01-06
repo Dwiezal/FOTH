@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://home/calco/Projects/Tiled/Meadow.tres" type="TileSet" id=1]
+
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Tile Layer 1" type="TileMap" parent="."]
+visible = true
+modulate = Color( 1, 1, 1, 1 )
+position = Vector2( 0, 0 )
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 2048, 2048 )
+cell_custom_transform = Transform2D( 16, 0, 0, 16, 0, 0 )
+format = 1
+tile_data = PoolIntArray( 0, 0, -851968, 1, 0, -917504, 2, 0, -983040, 3, 0, -1048576, 4, 0, -1114112, 65536, 0, -1245184, 65537, 0, -1310720, 65538, 0, -1376256, 65539, 0, -1441792, 65540, 0, -1507328, 131072, 0, -1703936, 131073, 0, -1769472, 131074, 0, -1835008, 131075, 0, -1900544, 131076, 0, -1966080, 196608, 0, -2031616, 196609, 0, -2097152, 196610, 0, -2162688, 196611, 0, -1966080, 196612, 0, -851968 )
+

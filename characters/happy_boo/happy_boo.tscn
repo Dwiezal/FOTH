@@ -592,7 +592,6 @@ playback_default_blend_time = 0.2
 
 [node name="GroundShadow" type="Sprite2D" parent="."]
 modulate = Color(0.12549, 0.6, 0.611765, 0.65098)
-z_index = -1
 z_as_relative = false
 scale = Vector2(0.8, 0.8)
 texture = ExtResource("2_62bos")

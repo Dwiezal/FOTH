@@ -1,0 +1,50 @@
+[gd_scene load_steps=8 format=3 uid="uid://djhey2dwfc1pi"]
+
+[ext_resource type="Texture2D" uid="uid://tgi6cyjp3rua" path="res://trees/pine_tree_1-1.png" id="1_2rtqu"]
+[ext_resource type="Texture2D" uid="uid://bke0rtpnjs2wv" path="res://trees/pine_tree_1-2.png" id="2_op5yo"]
+[ext_resource type="Script" path="res://PineTreeAnimation.gd" id="3_lpiyy"]
+[ext_resource type="Script" path="res://SwayTimer.gd" id="4_1giwe"]
+[ext_resource type="Texture2D" uid="uid://cwcxyjwoukot" path="res://characters/slime/potion_battler_shadow.png" id="5_173o6"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fp1nm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_2rtqu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_op5yo")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ijrcq"]
+radius = 91.0
+height = 242.0
+
+[node name="PineTree1" type="StaticBody2D"]
+
+[node name="PineTreeAnimation" type="AnimatedSprite2D" parent="."]
+position = Vector2(30, -619)
+sprite_frames = SubResource("SpriteFrames_fp1nm")
+frame_progress = 0.135095
+script = ExtResource("3_lpiyy")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -29)
+shape = SubResource("CapsuleShape2D_ijrcq")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.133333, 0.34902, 0.34902, 0.768627)
+show_behind_parent = true
+position = Vector2(0, 108)
+texture = ExtResource("5_173o6")
+
+[node name="SwayTimer" type="Timer" parent="."]
+unique_name_in_owner = true
+script = ExtResource("4_1giwe")
+
+[connection signal="delay_set" from="SwayTimer" to="PineTreeAnimation" method="_on_sway_timer_delay_set"]
+[connection signal="timeout" from="SwayTimer" to="PineTreeAnimation" method="_on_sway_timer_timeout"]

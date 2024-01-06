@@ -382,8 +382,10 @@
 [ext_resource type="Texture2D" uid="uid://gs8f82dvhawi" path="res://addons/kenneypacks/isometric/Isometric/woodStructure_W.png" id="380_qdj2b"]
 
 [node name="TileSet" type="Node2D"]
+texture_filter = 1
 
 [node name="DetailCrystalLargeE" type="Sprite2D" parent="."]
+texture_filter = 2
 texture = ExtResource("1_u1dk3")
 
 [node name="DetailCrystalLargeN" type="Sprite2D" parent="."]
