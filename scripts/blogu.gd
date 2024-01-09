@@ -34,6 +34,7 @@ var is_attacking = false
 
 const SMOKE_SCENE = preload("res://smoke_explosion/smoke_explosion.tscn")
 const DMGNUM_SCENE = preload("res://damage_indicator.tscn")
+const SPLAT_SCENE = preload("res://xp.tscn")
 
 signal died
 
@@ -148,9 +149,11 @@ func _on_hurt_box_hurt(damage):
 		animp.play_hurt_L()
 	print(hp)
 	if hp <= 0:
-		var smoke = SMOKE_SCENE.instantiate()
-		get_parent().add_child(smoke)
-		smoke.global_position = global_position
+		# var smoke = SMOKE_SCENE.instantiate()
+		# get_parent().add_child(smoke)
+		# smoke.global_position = global_position
+		spawn_effect(SMOKE_SCENE)
+		spawn_effect(SPLAT_SCENE)
 		queue_free()
 
 func spawn_effect(EFFECT: PackedScene, effect_position: Vector2 = global_position):

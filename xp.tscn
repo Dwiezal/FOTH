@@ -1,5 +1,10 @@
-[gd_scene format=3 uid="uid://brxf14aw8sixj"]
+[gd_scene load_steps=3 format=3 uid="uid://brxf14aw8sixj"]
+
+[ext_resource type="Script" path="res://XPSplat.gd" id="1_ebu21"]
+[ext_resource type="Texture2D" uid="uid://5tfw6as5062u" path="res://addons/kenneypacks/splat/PNG/Default (256px)/splat00.png" id="1_jiqmd"]
 
 [node name="XP" type="Node2D"]
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="XPSplat" type="Sprite2D" parent="."]
+texture = ExtResource("1_jiqmd")
+script = ExtResource("1_ebu21")
