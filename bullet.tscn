@@ -27,6 +27,7 @@ texture = ExtResource("1_wpw5j")
 shape = SubResource("CircleShape2D_gsa7g")
 
 [node name="HurtBox" parent="." instance=ExtResource("3_uwt0h")]
+visible = false
 collision_mask = 2
 
 [node name="CollisionShape2D" parent="HurtBox" index="0"]

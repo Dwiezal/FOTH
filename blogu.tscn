@@ -1,30 +1,119 @@
-[gd_scene load_steps=27 format=3 uid="uid://bco5uji2ajbom"]
+[gd_scene load_steps=45 format=3 uid="uid://bco5uji2ajbom"]
 
 [ext_resource type="Script" path="res://scripts/blogu.gd" id="1_2ua47"]
 [ext_resource type="Texture2D" uid="uid://cyg1hwvshg3yd" path="res://characters/blogu/Blogu-1 3.png" id="1_k2ejf"]
+[ext_resource type="Texture2D" uid="uid://n673e60b0eua" path="res://characters/blogu/attack/blogu_attack_-1.png" id="2_2ddl2"]
 [ext_resource type="Texture2D" uid="uid://b3dyc1t3ha03t" path="res://characters/blogu/Blogu-2 3.png" id="2_8cq0r"]
 [ext_resource type="Texture2D" uid="uid://bkl1s6c2nj8yq" path="res://characters/blogu/Blogu_hurt_1.png" id="2_suhjr"]
 [ext_resource type="Texture2D" uid="uid://b5dqgajj7iodj" path="res://characters/blogu/Blogu-3 3.png" id="3_03wks"]
 [ext_resource type="Texture2D" uid="uid://b8tcbkaww6qo0" path="res://characters/blogu/Blogu_hurt_2.png" id="3_em4a6"]
+[ext_resource type="Texture2D" uid="uid://b8jv1wxtl2u7k" path="res://characters/blogu/attack/blogu_attack_-2.png" id="3_g2xnq"]
 [ext_resource type="Texture2D" uid="uid://gtemwrrnd6i0" path="res://characters/blogu/Blogu-4 3.png" id="4_304ov"]
+[ext_resource type="Texture2D" uid="uid://dq3qbgodcd1eh" path="res://characters/blogu/attack/blogu_attack_-3.png" id="4_e820j"]
 [ext_resource type="Texture2D" uid="uid://blj3mkfoef6el" path="res://characters/blogu/Blogu_hurt_3.png" id="4_nr55r"]
 [ext_resource type="Texture2D" uid="uid://cmy0yg0fmbfmx" path="res://characters/blogu/Blogu_hurt_left_1.png" id="5_6utnb"]
 [ext_resource type="Texture2D" uid="uid://ds5tdjf3l48ra" path="res://characters/blogu/Blogu-5 3.png" id="5_ll5a7"]
+[ext_resource type="Texture2D" uid="uid://djbb2jyv14fie" path="res://characters/blogu/attack/blogu_attack_-4.png" id="5_tkh5r"]
 [ext_resource type="Texture2D" uid="uid://ryj5g2mrmkij" path="res://characters/blogu/Blogu_hurt_left_2.png" id="6_imohm"]
 [ext_resource type="Texture2D" uid="uid://bnyqs5a7at2l" path="res://characters/potion_battler_shadow.png" id="6_q0j41"]
+[ext_resource type="Texture2D" uid="uid://bgcnb88vxxtfy" path="res://characters/blogu/attack/blogu_attack_-5.png" id="6_txh1v"]
 [ext_resource type="Texture2D" uid="uid://cspwb5nb1thbj" path="res://characters/blogu/Blogu_hurt_left_3.png" id="7_cxxuf"]
+[ext_resource type="Texture2D" uid="uid://2ufe6ovvrv2o" path="res://characters/blogu/attack/blogu_attack_-6.png" id="7_t77px"]
 [ext_resource type="Script" path="res://blogu_animations.gd" id="10_k1vuh"]
+[ext_resource type="Texture2D" uid="uid://cca1pvxnryxmn" path="res://characters/blogu/attack/blogu_attack_-11.png" id="12_hy7ma"]
 [ext_resource type="Texture2D" uid="uid://cad7nle35n4ev" path="res://characters/blogu/Blogu_walk_left_1.png" id="13_2j33k"]
 [ext_resource type="PackedScene" uid="uid://bvg4ev44bsgq1" path="res://hit_box.tscn" id="13_2ywce"]
+[ext_resource type="Texture2D" uid="uid://d3nu3j8p1txfg" path="res://characters/blogu/attack/blogu_attack_-12.png" id="13_8uor3"]
 [ext_resource type="PackedScene" uid="uid://bbs76f632wggo" path="res://flock_view.tscn" id="14_i60g6"]
+[ext_resource type="Texture2D" uid="uid://cly7sjtu460du" path="res://characters/blogu/attack_L/blogu_attack_-1.png" id="14_j7nw0"]
 [ext_resource type="PackedScene" uid="uid://dxcfotaju0lnv" path="res://hurt_box.tscn" id="14_ksyos"]
 [ext_resource type="Texture2D" uid="uid://chcv6emvu2rn" path="res://characters/blogu/Blogu_walk_left_2.png" id="14_pq445"]
+[ext_resource type="Texture2D" uid="uid://ckatmllftmw8i" path="res://characters/blogu/attack_L/blogu_attack_-2.png" id="15_dmby0"]
 [ext_resource type="Texture2D" uid="uid://catsya5w0nmn0" path="res://characters/blogu/Blogu_walk_left_3.png" id="15_kitun"]
 [ext_resource type="Texture2D" uid="uid://0mqt3ye62yf7" path="res://characters/blogu/Blogu_walk_left_4.png" id="16_iaywi"]
+[ext_resource type="Texture2D" uid="uid://bj4lixqi84dum" path="res://characters/blogu/attack_L/blogu_attack_-3.png" id="16_u053w"]
 [ext_resource type="Texture2D" uid="uid://bg2xsyiik1e08" path="res://characters/blogu/Blogu_walk_left_5.png" id="17_67gc5"]
+[ext_resource type="Texture2D" uid="uid://ci43bnvanq3yg" path="res://characters/blogu/attack_L/blogu_attack_-4.png" id="17_ewkkj"]
+[ext_resource type="Texture2D" uid="uid://uc233embkont" path="res://characters/blogu/attack_L/blogu_attack_-5.png" id="18_kpv54"]
+[ext_resource type="Texture2D" uid="uid://degtpp8udraty" path="res://characters/blogu/attack_L/blogu_attack_-6.png" id="19_stg8i"]
+[ext_resource type="Texture2D" uid="uid://d3ie6h5ura7uy" path="res://characters/blogu/attack_L/blogu_attack_-8.png" id="21_f38lw"]
+[ext_resource type="Texture2D" uid="uid://jfiffcxmtci0" path="res://characters/blogu/attack_L/blogu_attack_-11.png" id="24_l31be"]
+[ext_resource type="Texture2D" uid="uid://duif1cjdcu253" path="res://characters/blogu/attack_L/blogu_attack_-12.png" id="25_l44os"]
+[ext_resource type="PackedScene" uid="uid://o8rn0up6bwb2" path="res://condition_area.tscn" id="37_alsr6"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_phlg3"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_2ddl2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_g2xnq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_e820j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_tkh5r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_txh1v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_t77px")
+}],
+"loop": true,
+"name": &"attack",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_j7nw0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_dmby0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_u053w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_ewkkj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_kpv54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_stg8i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_f38lw")
+}],
+"loop": true,
+"name": &"attack_L",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_hy7ma")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_8uor3")
+}],
+"loop": true,
+"name": &"attacking",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("24_l31be")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_l44os")
+}],
+"loop": true,
+"name": &"attacking_L",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("2_suhjr")
@@ -35,9 +124,9 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("4_nr55r")
 }],
-"loop": true,
+"loop": false,
 "name": &"hurt",
-"speed": 5.0
+"speed": 9.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -49,9 +138,9 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("7_cxxuf")
 }],
-"loop": true,
+"loop": false,
 "name": &"hurt_L",
-"speed": 5.0
+"speed": 9.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -95,59 +184,74 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_8rii1"]
-radius = 25.0
+radius = 50.0
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_4nown"]
-radius = 45.3982
+radius = 70.0
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_vjpw5"]
-radius = 60.0
+radius = 80.025
 
 [node name="Blogu" type="CharacterBody2D" groups=["mob"]]
 collision_layer = 4
-collision_mask = 4
+collision_mask = 5
 platform_floor_layers = 4294967040
 script = ExtResource("1_2ua47")
+view_distance = 2048.0
+avoid_distance = 128.0
 
 [node name="BloguAnimation" type="AnimatedSprite2D" parent="."]
 unique_name_in_owner = true
-scale = Vector2(0.25, 0.25)
+position = Vector2(1, -1)
+scale = Vector2(0.4, 0.4)
 sprite_frames = SubResource("SpriteFrames_phlg3")
-animation = &"walk_L"
+animation = &"attacking"
+frame_progress = 0.12619
+offset = Vector2(0, -50)
 script = ExtResource("10_k1vuh")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="GroundShadow" type="Sprite2D" parent="."]
 modulate = Color(0.134062, 0.349557, 0.349592, 0.768627)
 show_behind_parent = true
-position = Vector2(0, 52)
-scale = Vector2(0.170313, -0.207483)
+position = Vector2(-1, 63)
+scale = Vector2(0.296296, -0.207483)
 texture = ExtResource("6_q0j41")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 25)
 shape = SubResource("CircleShape2D_8rii1")
+
+[node name="AtkRange" parent="." instance=ExtResource("37_alsr6")]
+collision_layer = 0
+collision_mask = 2
 
 [node name="HitBox" parent="." instance=ExtResource("13_2ywce")]
 collision_layer = 2
 
 [node name="CollisionShape2D" parent="HitBox" index="0"]
-position = Vector2(0, 11)
 shape = SubResource("CircleShape2D_4nown")
 
 [node name="FlockView" parent="." groups=["enemy"] instance=ExtResource("14_i60g6")]
+position = Vector2(0, 24)
 
 [node name="HurtBox" parent="." instance=ExtResource("14_ksyos")]
 collision_mask = 4
 
 [node name="CollisionShape2D" parent="HurtBox" index="0"]
-position = Vector2(0, 15)
+position = Vector2(0, 1.90735e-06)
+scale = Vector2(1.24535, 1.24535)
 shape = SubResource("CircleShape2D_vjpw5")
 
-[node name="FlockView2" parent="." instance=ExtResource("14_i60g6")]
+[node name="DisableTimer" parent="HurtBox" index="1"]
+wait_time = 0.3
 
+[connection signal="animation_finished" from="BloguAnimation" to="." method="_on_blogu_animation_animation_finished"]
+[connection signal="area_entered" from="AtkRange" to="." method="_on_atk_range_area_entered"]
+[connection signal="area_exited" from="AtkRange" to="." method="_on_atk_range_area_exited"]
+[connection signal="body_entered" from="AtkRange" to="." method="_on_atk_range_body_entered"]
+[connection signal="body_exited" from="AtkRange" to="." method="_on_atk_range_body_exited"]
 [connection signal="hurt" from="HurtBox" to="." method="_on_hurt_box_hurt"]
 
+[editable path="AtkRange"]
 [editable path="HitBox"]
 [editable path="FlockView"]
 [editable path="HurtBox"]
-[editable path="FlockView2"]

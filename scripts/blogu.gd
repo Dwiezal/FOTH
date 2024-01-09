@@ -13,10 +13,12 @@ extends CharacterBody2D
 @export var separation_force: = 0.05
 @export var view_distance: = 200.0
 @export var avoid_distance: = 20.0
+@export var attack_range: = 200.0
 
 # onreadys
 @onready var player = get_node("/root/Game/Player")
 @onready var listener = "res://survivors_game.tscn" #reference to your listener here 
+@onready var animp = %BloguAnimation
 
 # other other
 var _width = ProjectSettings.get_setting("display/window/size/viewport_width")
@@ -27,26 +29,49 @@ var _target: Vector2
 var _velocity: Vector2
 var target_vector: Vector2
 
+var done_hurting = false
+var is_attacking = false
+
+const SMOKE_SCENE = preload("res://smoke_explosion/smoke_explosion.tscn")
+const DMGNUM_SCENE = preload("res://damage_indicator.tscn")
+
 signal died
 
 func _ready():
 	# apply_scale(Vector2(size, size))
-	%BloguAnimation.play_walk()
+	animp.play_walk()
 	_velocity = Vector2(randf_range(-1, 1), randf_range(-1, 1)
 						).normalized() * max_speed
 	_target = player.global_position
 
-func update_animations(svelocity):
+func update_animations(velocity):
+	var anim = animp.get_animation()
+	match anim:
+		"hurt": return
+		"hurt_L": return
+		"attack": return
+		"attack_L": return
+		# "attacking": return
+		# "attacking_L": return
 	if velocity.x > 0:
-		%BloguAnimation.play_walk()
+		if is_attacking:
+			animp.play_attacking()
+		else:
+			animp.play_walk()
 	elif velocity.x < 0:
-		%BloguAnimation.play_walk_L()
+		if is_attacking:
+			animp.play_attacking_L()
+		else:
+			animp.play_walk_L()
 	else:
-		match %BloguAnimation.get_animation():
-			"walk": %BloguAnimation.play_walk()
-			"walk_L": %BloguAnimation.play_walk_L()
-			"idle": %BloguAnimation.play_walk()
-			"idle_L": %BloguAnimation.play_walk_L()
+		if is_attacking:
+			match anim:
+				"attacking": animp.play_attacking()
+				"attacking_L": animp.play_attacking_L()
+		else:
+			match anim:
+				"walk": animp.play_walk()
+				"walk_L": animp.play_walk_L()
 
 func _on_flock_view_body_entered(body: PhysicsBody2D):
 	if self != body:
@@ -114,41 +139,68 @@ func get_flock_status(flock: Array):
 
 	return [center_vector, align_vector, avoid_vector]
 
-"""
-func _physics_process(delta):
-	var direction = global_position.direction_to(player.global_position)
-	velocity = direction * speed
-	move_and_slide()
-	"""
-"""
-func take_damage():
-	health -= 1
-	%Slime.play_hurt()
-	
-	if health == 0:
-		died.emit()
-		queue_free()
-		
-		const SMOKE_SCENE = preload("res://smoke_explosion/smoke_explosion.tscn")
-		var smoke = SMOKE_SCENE.instantiate()
-		get_parent().add_child(smoke)
-		smoke.global_position = global_position
-"""
-
 func _on_hurt_box_hurt(damage):
 	hp -= damage
+	spawn_dmg_indicator(damage)
 	if velocity.x >= 0:
-		%BloguAnimation.play_hurt()
+		animp.play_hurt()
 	else:
-		%BloguAnimation.play_hurt_L()
+		animp.play_hurt_L()
 	print(hp)
 	if hp <= 0:
-		const SMOKE_SCENE = preload("res://smoke_explosion/smoke_explosion.tscn")
 		var smoke = SMOKE_SCENE.instantiate()
 		get_parent().add_child(smoke)
 		smoke.global_position = global_position
 		queue_free()
+
+func spawn_effect(EFFECT: PackedScene, effect_position: Vector2 = global_position):
+	var effect = EFFECT.instantiate()
+	get_parent().add_child(effect)
+	effect.global_position = global_position
+	return effect
+
+func spawn_dmg_indicator(damage):
+	var dnum = spawn_effect(DMGNUM_SCENE)
+	if dnum:
+		dnum.label.text = str(damage)
+	
 
 func get_random_target():
 	randomize()
 	return Vector2(randf_range(0, _width), randf_range(0, _height))
+
+func _on_blogu_animation_animation_finished():
+	var anim = animp.get_animation()
+	match anim:
+		"hurt": animp.play_walk()
+		"hurt_L": animp.play_walk_L()
+		"attack": animp.play_attacking()
+		"attack_L": animp.play_attacking_L()
+
+
+func _on_atk_range_body_entered(body):
+	if body.is_in_group("player"):
+		is_attacking = true
+		"""
+		if velocity.x > 0:
+			animp.play_attack()
+		elif velocity.x < 0:
+			animp.play_attack_L()
+		else:
+			match animp.get_animation:
+				"walk": animp.attack()
+				"walk_L": animp.attack_L()
+		"""
+
+func _on_atk_range_body_exited(body):
+	if body.is_in_group("player"):
+		is_attacking = false
+		"""
+		match animp.get_animation:
+			"hurt": return
+			"hurt_L": return
+		if velocity.x > 0:
+			animp.play_walk
+		elif velocity.x <0:
+			animp.play_walk_L
+		"""

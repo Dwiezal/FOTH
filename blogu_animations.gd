@@ -15,3 +15,12 @@ func play_hurt_L():
 
 func play_attack():
 	%BloguAnimation.play("attack")
+	
+func play_attack_L():
+	%BloguAnimation.play("attack_L")
+	
+func play_attacking():
+	%BloguAnimation.play("attacking")
+
+func play_attacking_L():
+	%BloguAnimation.play("attacking_L")

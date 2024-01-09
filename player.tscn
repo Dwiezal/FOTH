@@ -3,15 +3,15 @@
 [ext_resource type="PackedScene" uid="uid://pbmyh1qru7p" path="res://characters/happy_boo/happy_boo.tscn" id="1_j1oor"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_jql6s"]
 [ext_resource type="PackedScene" uid="uid://kpj2105r72sk" path="res://potion_battler.tscn" id="2_xphi5"]
-[ext_resource type="PackedScene" uid="uid://c5ej8bk4hthcv" path="res://gun.tscn" id="3_bkdul"]
 [ext_resource type="PackedScene" uid="uid://dxcfotaju0lnv" path="res://hurt_box.tscn" id="3_ybg8q"]
+[ext_resource type="PackedScene" uid="uid://c5ej8bk4hthcv" path="res://gun.tscn" id="5_6xgls"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_clg2c"]
 radius = 18.0
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_10cs3"]
 radius = 30.0
-height = 128.0
+height = 92.0
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_usxvk"]
 bg_color = Color(0.152941, 0.168627, 0.188235, 1)
@@ -30,13 +30,18 @@ corner_radius_bottom_left = 6
 anti_aliasing = false
 
 [node name="Player" type="CharacterBody2D" groups=["player"]]
+collision_layer = 2
 platform_floor_layers = 4294967040
 script = ExtResource("1_jql6s")
 
 [node name="PotionBattler" parent="." instance=ExtResource("2_xphi5")]
 unique_name_in_owner = true
-position = Vector2(0, -67)
+position = Vector2(0, -58)
 scale = Vector2(0.125, 0.125)
+animation = &"idle"
+
+[node name="SloshySloshing" parent="PotionBattler" index="0"]
+animation = &"idle"
 
 [node name="HappyBoo" parent="." instance=ExtResource("1_j1oor")]
 unique_name_in_owner = true
@@ -54,28 +59,28 @@ position = Vector2(0, -40)
 rotation = -3.14159
 shape = SubResource("CapsuleShape2D_10cs3")
 
+[node name="DisableTimer" parent="HurtBox" index="1"]
+wait_time = 0.1
+
 [node name="Camera2D" type="Camera2D" parent="."]
 
-[node name="Gun" parent="." instance=ExtResource("3_bkdul")]
-position = Vector2(0, -45)
-
-[node name="Timer" parent="Gun" index="2"]
-wait_time = 1.0
+[node name="Gun" parent="." instance=ExtResource("5_6xgls")]
+position = Vector2(0, -60)
 
 [node name="ProgressBar" type="ProgressBar" parent="."]
 unique_name_in_owner = true
 z_index = 100
 offset_left = -68.0
-offset_top = 25.0
+offset_top = 29.0
 offset_right = 68.0
-offset_bottom = 42.0
+offset_bottom = 46.0
 theme_override_styles/background = SubResource("StyleBoxFlat_usxvk")
 theme_override_styles/fill = SubResource("StyleBoxFlat_o7j2d")
 value = 100.0
 show_percentage = false
 
+[connection signal="animation_finished" from="PotionBattler" to="." method="_on_potion_battler_animation_finished"]
 [connection signal="hurt" from="HurtBox" to="." method="_on_hurt_box_hurt"]
 
 [editable path="PotionBattler"]
 [editable path="HurtBox"]
-[editable path="Gun"]

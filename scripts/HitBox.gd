@@ -11,3 +11,7 @@ func temp_disable():
 
 func _on_disable_hit_box_timer_timeout():
 	collision.call_deferred("set", "disabled", false)
+	
+func enemy_hit():
+	if get_parent().has_method("enemy_hit"):
+		get_parent().enemy_hit()

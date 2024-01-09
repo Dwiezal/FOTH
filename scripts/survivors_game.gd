@@ -4,36 +4,20 @@ var maxMobs = 64
 @export var mobCount = 0
 @export_enum("res://weak_slime.tscn", "something", "something_else") var mobVars = 0
 
-"""
-func spawn_mob():
-	if mobCount < maxMobs:
-		var newMob = preload("res://weak_slime.tscn").instantiate()
-		%PathFollow2D.progress_ratio = randf()
-		newMob.global_position = %PathFollow2D.global_position
-		add_child(newMob)
-		mobCount += 1
-		# print(mob_count)
-	else:
-		pass
-		
-"""
 
 func _on_mob_timer_timeout():
 	# spawn_mob()
 	pass
 
-
 func _on_player_health_depleted():
 	%GameOver.visible = true
 	get_tree().paused = true
-
 
 func _on_restart_pressed():
 	get_tree().paused = false	
 	get_tree().reload_current_scene()
 	# print("button pressed")
 	# %GameOver.visible = false
-
 
 func _on_mob_mo_died():
 	mobCount -= 1

@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://o8rn0up6bwb2"]
+
+[ext_resource type="Script" path="res://attack_range.gd" id="1_jef68"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_e2sop"]
+
+[node name="ConditionArea" type="Area2D"]
+
+[node name="ConditionShape" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_e2sop")
+script = ExtResource("1_jef68")
