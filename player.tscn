@@ -1,17 +1,17 @@
-[gd_scene load_steps=10 format=3 uid="uid://dg4owa6nmkg5p"]
+[gd_scene load_steps=12 format=3 uid="uid://dg4owa6nmkg5p"]
 
 [ext_resource type="PackedScene" uid="uid://pbmyh1qru7p" path="res://characters/happy_boo/happy_boo.tscn" id="1_j1oor"]
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_jql6s"]
 [ext_resource type="PackedScene" uid="uid://kpj2105r72sk" path="res://potion_battler.tscn" id="2_xphi5"]
 [ext_resource type="PackedScene" uid="uid://dxcfotaju0lnv" path="res://hurt_box.tscn" id="3_ybg8q"]
 [ext_resource type="PackedScene" uid="uid://c5ej8bk4hthcv" path="res://gun.tscn" id="5_6xgls"]
+[ext_resource type="PackedScene" uid="uid://drxqey3u2xlg3" path="res://pickup_box.tscn" id="5_i0w46"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_clg2c"]
 radius = 18.0
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_10cs3"]
-radius = 30.0
-height = 92.0
+[sub_resource type="CircleShape2D" id="CircleShape2D_bhe6u"]
+radius = 37.0
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_usxvk"]
 bg_color = Color(0.152941, 0.168627, 0.188235, 1)
@@ -29,6 +29,9 @@ corner_radius_bottom_right = 6
 corner_radius_bottom_left = 6
 anti_aliasing = false
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t1edb"]
+bg_color = Color(0.6, 0.6, 0.882353, 1)
+
 [node name="Player" type="CharacterBody2D" groups=["player"]]
 collision_layer = 2
 platform_floor_layers = 4294967040
@@ -39,6 +42,7 @@ unique_name_in_owner = true
 position = Vector2(0, -58)
 scale = Vector2(0.125, 0.125)
 animation = &"idle"
+frame_progress = 0.992479
 
 [node name="SloshySloshing" parent="PotionBattler" index="0"]
 animation = &"idle"
@@ -55,19 +59,22 @@ shape = SubResource("CircleShape2D_clg2c")
 collision_mask = 2
 
 [node name="CollisionShape2D" parent="HurtBox" index="0"]
-position = Vector2(0, -40)
+position = Vector2(0, -17)
 rotation = -3.14159
-shape = SubResource("CapsuleShape2D_10cs3")
+shape = SubResource("CircleShape2D_bhe6u")
 
 [node name="DisableTimer" parent="HurtBox" index="1"]
 wait_time = 0.1
 
+[node name="PickupBox" parent="." instance=ExtResource("5_i0w46")]
+
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="Gun" parent="." instance=ExtResource("5_6xgls")]
+unique_name_in_owner = true
 position = Vector2(0, -60)
 
-[node name="ProgressBar" type="ProgressBar" parent="."]
+[node name="HealthBar" type="ProgressBar" parent="."]
 unique_name_in_owner = true
 z_index = 100
 offset_left = -68.0
@@ -79,8 +86,23 @@ theme_override_styles/fill = SubResource("StyleBoxFlat_o7j2d")
 value = 100.0
 show_percentage = false
 
+[node name="ExperienceBar" type="ProgressBar" parent="."]
+unique_name_in_owner = true
+z_index = 100
+offset_left = -937.0
+offset_top = 511.0
+offset_right = 80.0
+offset_bottom = 536.0
+rotation = -1.57079
+theme_override_styles/background = SubResource("StyleBoxFlat_usxvk")
+theme_override_styles/fill = SubResource("StyleBoxFlat_t1edb")
+max_value = 7.0
+step = 1.0
+allow_greater = true
+
 [connection signal="animation_finished" from="PotionBattler" to="." method="_on_potion_battler_animation_finished"]
 [connection signal="hurt" from="HurtBox" to="." method="_on_hurt_box_hurt"]
 
 [editable path="PotionBattler"]
 [editable path="HurtBox"]
+[editable path="PickupBox"]

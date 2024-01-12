@@ -202,6 +202,54 @@ size_flags_horizontal = 3
 theme_override_font_sizes/font_size = 45
 text = "Menu"
 
+[node name="LevelUp" type="CanvasLayer" parent="."]
+unique_name_in_owner = true
+visible = false
+
+[node name="DarkPanel" type="PanelContainer" parent="LevelUp"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+
+[node name="LabelButtonsSplit" type="VBoxContainer" parent="LevelUp/DarkPanel"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="YouLeveledUp" type="Label" parent="LevelUp/DarkPanel/LabelButtonsSplit"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 100
+text = "You Leveled Up!"
+
+[node name="RestartMenuSplit" type="HBoxContainer" parent="LevelUp/DarkPanel/LabelButtonsSplit"]
+layout_mode = 2
+
+[node name="Return" type="Button" parent="LevelUp/DarkPanel/LabelButtonsSplit/RestartMenuSplit"]
+process_mode = 3
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 45
+text = "Return"
+
+[node name="ReferenceRect" type="ReferenceRect" parent="LevelUp/DarkPanel/LabelButtonsSplit/RestartMenuSplit"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.05
+border_color = Color(1, 0, 0, 0)
+
+[node name="Menu" type="Button" parent="LevelUp/DarkPanel/LabelButtonsSplit/RestartMenuSplit"]
+process_mode = 3
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 45
+text = "Menu"
+
 [connection signal="health_depleted" from="Player" to="." method="_on_player_health_depleted"]
+[connection signal="level_up" from="Player" to="." method="_on_player_level_up"]
 [connection signal="timeout" from="MobTimer" to="." method="_on_mob_timer_timeout"]
 [connection signal="pressed" from="GameOver/DarkPanel/LabelButtonsSplit/RestartMenuSplit/Restart" to="." method="_on_restart_pressed"]
+[connection signal="pressed" from="LevelUp/DarkPanel/LabelButtonsSplit/RestartMenuSplit/Return" to="." method="_on_return_pressed"]

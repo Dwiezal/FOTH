@@ -7,11 +7,24 @@ extends CharacterBody2D
 @export var SPEED = 300.0
 
 @onready var animp = %PotionBattler
+@onready var player_experience := 0
+@onready var level_point := 7
+
+#GUN
+var gun_reload_time = 1.0
+
+
 
 signal health_depleted
+signal level_up
 
 func _ready():
+	#GUN
+	$Gun/Timer.wait_time = gun_reload_time
+	
 	animp.play_spawning()
+	%ExperienceBar.value = 0.0
+	%ExperienceBar.max_value = level_point
 
 func _player_movement(direction, delta):
 	if direction != Vector2.ZERO:
@@ -55,7 +68,7 @@ func _physics_process(delta):
 
 func _on_hurt_box_hurt(damage):
 	hp -= damage
-	%ProgressBar.value = hp
+	%HealthBar.value = hp
 	print(hp)
 	if hp <= 0.0:
 		health_depleted.emit()
@@ -64,3 +77,14 @@ func _on_hurt_box_hurt(damage):
 func _on_potion_battler_animation_finished():
 	match animp.get_animation():
 		"spawning": animp.play_idle()
+
+func add_xp(xp):
+	player_experience += xp
+	%ExperienceBar.value = player_experience
+	if player_experience >= level_point:
+		level_up.emit()
+		player_experience -= level_point
+		level_point *= 2
+		%ExperienceBar.max_value = level_point
+		%ExperienceBar.value = player_experience
+	print("XP: ",player_experience)

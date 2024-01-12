@@ -15,6 +15,7 @@ script = ExtResource("1_physc")
 [node name="GunRange" type="CollisionShape2D" parent="."]
 rotation = -1.5708
 shape = SubResource("CircleShape2D_aymb2")
+debug_color = Color(0, 0.6, 0.701961, 0.0705882)
 script = ExtResource("2_8r5ad")
 
 [node name="Pistol" type="Sprite2D" parent="."]

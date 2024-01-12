@@ -1,10 +1,75 @@
-[gd_scene load_steps=3 format=3 uid="uid://brxf14aw8sixj"]
+[gd_scene load_steps=7 format=3 uid="uid://brxf14aw8sixj"]
 
 [ext_resource type="Script" path="res://XPSplat.gd" id="1_ebu21"]
 [ext_resource type="Texture2D" uid="uid://5tfw6as5062u" path="res://addons/kenneypacks/splat/PNG/Default (256px)/splat00.png" id="1_jiqmd"]
 
-[node name="XP" type="Node2D"]
+[sub_resource type="Animation" id="Animation_wdt2a"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("XPSplat:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_pcabl"]
+resource_name = "splat"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(),
+"transitions": PackedFloat32Array(),
+"values": []
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("XPSplat:scale")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(0.125, 1),
+"update": 0,
+"values": [Vector2(1e-05, 1e-05), Vector2(0.75, 0.75)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_7g6pr"]
+_data = {
+"RESET": SubResource("Animation_wdt2a"),
+"splat": SubResource("Animation_pcabl")
+}
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5i738"]
+radius = 30.0
+
+[node name="XP" type="Area2D" groups=["XP"]]
+show_behind_parent = true
+z_index = -1
+scale = Vector2(1, 0.75)
+script = ExtResource("1_ebu21")
 
 [node name="XPSplat" type="Sprite2D" parent="."]
+show_behind_parent = true
+position = Vector2(0, 34.6667)
 texture = ExtResource("1_jiqmd")
-script = ExtResource("1_ebu21")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_7g6pr")
+}
+autoplay = "splat"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 26.6667)
+shape = SubResource("CircleShape2D_5i738")

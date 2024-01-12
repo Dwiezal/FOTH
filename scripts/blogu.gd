@@ -3,6 +3,7 @@ extends CharacterBody2D
 # general vars
 @export var hp = 3
 @export var size = 1.0
+@export var xp = 1
 # @export var speed = 100.0
 
 # flocking vars
@@ -160,6 +161,8 @@ func spawn_effect(EFFECT: PackedScene, effect_position: Vector2 = global_positio
 	var effect = EFFECT.instantiate()
 	get_parent().add_child(effect)
 	effect.global_position = global_position
+	if effect.has_node("XPSplat"):
+		effect.mobulate(xp)
 	return effect
 
 func spawn_dmg_indicator(damage):
